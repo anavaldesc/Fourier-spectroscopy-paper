@@ -1,3 +1,8 @@
+\section{Introduction}
+Aqui hablo sobre espectroscopia y tunable soc
+
+\subsection{Modulated/tripple frequency coupling}
+
 % !TEX root = SpinOneSOC.tex
 % Informs TeXShop to look one folder up for the main file.
 
@@ -16,10 +21,10 @@ where $\Omega_{ij}\propto \vec{E_i}\times\vec{E_j^{\star}}$ represents the coupl
 \begin{align}
 \begin{split}
 \hat{\tilde{H}}_R(t) = & \hat{U}^{\dagger} \hat{H}_R(t)\hat{U} \\
-                     = & \frac{1}{2}\lbrace\Omega_{21}\cos(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x+(\bar{\omega}-\omega_{31}) t -\frac{\phi_1}{2}) \\
-                     & +\Omega_{41}\cos(2\kr x+(\bar{\omega}-\omega_{41}) t + \phi_2)\rbrace \hat{F}_x \\
-					& -  \frac{1}{2}\lbrace\Omega_{21}\sin(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\sin(2\kr x+(\bar{\omega}-\omega_{31}) t-\frac{\phi_1}{2})\\
-					&+\Omega_{41}\sin(2\kr x+(\bar{\omega}-\omega_{41}) t+\phi_2)\rbrace \hat{F}_y
+= & \frac{1}{2}\lbrace\Omega_{21}\cos(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x+(\bar{\omega}-\omega_{31}) t -\frac{\phi_1}{2}) \\
+& +\Omega_{41}\cos(2\kr x+(\bar{\omega}-\omega_{41}) t + \phi_2)\rbrace \hat{F}_x \\
+& -  \frac{1}{2}\lbrace\Omega_{21}\sin(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\sin(2\kr x+(\bar{\omega}-\omega_{31}) t-\frac{\phi_1}{2})\\
+&+\Omega_{41}\sin(2\kr x+(\bar{\omega}-\omega_{41}) t+\phi_2)\rbrace \hat{F}_y
 \end{split}
 \end{align}
 %
@@ -65,7 +70,7 @@ To get rid of the time dependence in the Hamiltonian and ultimately getting the 
 \begin{align}
 \hat{U} = e^{-i\frac{\Omega}{2}\int_0^t\cos(\delta\omega t')dt'} = e^{-i\frac{\Omega}{2\delta\omega}\sin(\delta\omega t)}.
 \end{align}
- 
+
 Under this time dependent transformation, the time evolution of the system will be given by
 %
 
@@ -99,7 +104,7 @@ so we can write
 \begin{align}
 \begin{split}
 \hat{\tilde{H}} = &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr J_0(\Omega/2\delta\omega)\hat{k}\hat{F}_z + \frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y)+ \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
-				 &+\epsilon(J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta))\hat{F}_y^2-\mathbb{I})+4E_r(J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2\\
+&+\epsilon(J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta))\hat{F}_y^2-\mathbb{I})+4E_r(J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2\\
 = & \frac{\hbar^2}{2m}(\hat{k}-2\kr J_0(\Omega/2\delta\omega)\hat{F}_z)^2 +\frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y) + \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
 & + \epsilon[J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2-\mathbb{I}]+2E_r (1-J_0(\Omega/\delta\omega))\hat{F}_y^2
 \end{split}
@@ -125,4 +130,8 @@ This looks almost like a spin one spin-orbit coupled system with some extra weir
 %e^{\pm iz\sin\theta} = J_0(z) + 2\sum_{n=1}^{\infty}J_{2n}(z)\cos(2n\theta) \pm 2i\sum_{n=0}^{\infty}J_{2n+1}(z)\sin((2n+1)\theta).
 %\end{align} 
 
+
+
+
+\subsection{Spectroscopy}
 
