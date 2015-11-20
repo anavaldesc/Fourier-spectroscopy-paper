@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 NOV 2015 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 NOV 2015 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,61 +258,33 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./Introduction.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (186.92197pt too wide) in paragraph at lines 18--18
-[] 
- []
+(./Introduction.tex
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
 
-
-Overfull \hbox (111.81738pt too wide) in paragraph at lines 32--32
-[] 
- []
-
-
-Overfull \hbox (166.0622pt too wide) in paragraph at lines 50--50
-[] 
- []
-
-
-Overfull \hbox (168.36125pt too wide) in paragraph at lines 66--66
-[] 
- []
-
-
-Overfull \hbox (220.59714pt too wide) in paragraph at lines 85--85
-[] 
- []
-
-
-Overfull \hbox (32.76921pt too wide) in paragraph at lines 95--95
-[] 
- []
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-
-Overfull \hbox (144.74542pt too wide) in paragraph at lines 114--114
-[] 
- []
-
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (45.26572pt too wide) in paragraph at lines 123--123
-[] 
- []
-
-
-Overfull \hbox (79.11478pt too wide) in paragraph at lines 152--152
+Overfull \hbox (79.11478pt too wide) in paragraph at lines 27--27
 [] 
  []
 
@@ -321,37 +293,38 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ­ in font cmr10!
 ) (./Results.tex) (./Discussion.tex) (./Conclusion.tex)
 No file MolmerSorensen.bbl.
-[2] (./MolmerSorensen.aux) ) 
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./MolmerSorensen.aux) ) 
 Here is how much of TeX's memory you used:
- 4012 strings out of 493089
- 51243 string characters out of 6134842
- 156923 words of memory out of 5000000
- 7443 multiletter control sequences out of 15000+600000
- 6896 words of font info for 27 fonts, out of 8000000 for 9000
+ 4028 strings out of 493089
+ 51405 string characters out of 6134842
+ 138923 words of memory out of 5000000
+ 7453 multiletter control sequences out of 15000+600000
+ 9699 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,28p,568b,197s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm7.pfb>
-Output written on MolmerSorensen.pdf (2 pages, 182710 bytes).
+ 37i,18n,28p,868b,160s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.p
+fb>
+Output written on MolmerSorensen.pdf (1 page, 162983 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,126 @@
+\section{Triple frequency coupling}
+
+
+
+
+
+%
+\begin{align}
+\hat{H}_R(t) = \lbrace\Omega_{21}\cos(2\kr x-\omega_{21} t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x-\omega_{31} t-\frac{\phi_1}{2})+\Omega_{41}\cos(2\kr x-\omega_{41} t + \phi_2)\rbrace\hat{F_x}
+\end{align}
+%
+%
+where $\Omega_{ij}\propto \vec{E_i}\times\vec{E_j^{\star}}$ represents the coupling strenght associated to each pair of Raman beams and $\omega_{ij} = \omega_{i}-\omega_{j} $. The frequencies are chosen so that $\omega_{31} + \omega{21}$ is at 4 photon resonance with the $m_f = +1\rightarrow m_f = -1$. Under a rotation about the z axis $\hat{U} = e^{i\omega t\hat{F}_z}$ at frequency $\bar{\omega} = \frac{\omega_{21}+\omega_{31}}{2}$, and after applying the rotating wave approximation (RWA), the Hamiltonian transforms to 
+%
+%
+\begin{align}
+\begin{split}
+\hat{\tilde{H}}_R(t) = & \hat{U}^{\dagger} \hat{H}_R(t)\hat{U} \\
+= & \frac{1}{2}\lbrace\Omega_{21}\cos(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x+(\bar{\omega}-\omega_{31}) t -\frac{\phi_1}{2}) \\
+& +\Omega_{41}\cos(2\kr x+(\bar{\omega}-\omega_{41}) t + \phi_2)\rbrace \hat{F}_x \\
+& -  \frac{1}{2}\lbrace\Omega_{21}\sin(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\sin(2\kr x+(\bar{\omega}-\omega_{31}) t-\frac{\phi_1}{2})\\
+&+\Omega_{41}\sin(2\kr x+(\bar{\omega}-\omega_{41}) t+\phi_2)\rbrace \hat{F}_y
+\end{split}
+\end{align}
+%
+%
+where we have used 
+%
+\begin{align}
+e^{-i\theta \hat{F}_z} \hat{F}_x e^{i\theta \hat{F}_z}= \cos\theta \hat{F}_x + \sin\theta\hat{F}_y
+\end{align}
+%
+and applied the rotating wave approximation (RWA)to get rid of the fast terms. 
+
+I want the time dependent Hamiltonian to look like it has a constant offset and a frequency modulated term. This can be done by choosing $\Omega_{21} =\Omega_{31} = \Omega $, $\Omega_{41}=\Omega_0$, and $\omega_{41} =\frac{\omega_{21}+\omega_{31}}{2}$. The Hamiltonian is now reduced to 
+%
+%
+\begin{align}
+\begin{split}
+\hat{\tilde{H}}_R(t) = \frac{\Omega}{2}\cos(\delta\omega t)[\cos(2\kr x)\hat{F}_x - \sin(2\kr x)\hat{F}_y] + \frac{\Omega_{0}}{2}[\cos(2\kr x + \phi_2)\hat{F}_x - \sin(2\kr x + \phi_2)\hat{F}_y] \\
+\end{split}
+\end{align}
+%
+%
+where $\delta\omega=\frac{\omega_{31}-\omega_{21}}{2}$. Also notice that by redefining the time origin I can get rid of the first phase. 
+
+Things are looking good so far!
+
+Now I can apply the usual x dependent rotation $\hat{U} = e^{i2\kr x \hat{F}_z}$. I won't work out all the algebra explicitly here, but the complete system's Hamiltonian (in the interaction picture) should be something like
+%
+%
+\begin{align}
+\begin{split}
+\hat{H}(t) = & \frac{\hbar^2}{2m}(\hat{k}-2\kr\hat{F}_z)^2 + \frac{1}{2}[\Omega_0\cos\phi_2 + \Omega\cos(\delta\omega t)]\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{F}_y +\Delta\hat{F}_z + \epsilon(\hat{F}_z^2-\mathbb{I}) \\
+= &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr \hat{k}\hat{F}_z +4E_r\hat{F}_z^2 + \frac{1}{2}[\Omega_0\cos\phi_2 + \Omega(t)]\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{F}_y + \Delta\hat{F}_z +
+\epsilon(\hat{F}_z^2-\mathbb{I}) ,
+\end{split}
+\end{align}
+%
+%
+with $\Omega(t)=\Omega\cos(\delta\omega t)$.
+
+To get rid of the time dependence in the Hamiltonian and ultimately getting the `tunable' spin-orbit coupling we can choose a transoformation of the Hamiltonian such that $\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} = -i \frac{\Omega(t)}{2}\hat{F}_x$. This will be satisfied for
+
+\begin{align}
+\hat{U} = e^{-i\frac{\Omega}{2}\int_0^t\cos(\delta\omega t')dt'} = e^{-i\frac{\Omega}{2\delta\omega}\sin(\delta\omega t)}.
+\end{align}
+
+Under this time dependent transformation, the time evolution of the system will be given by
+%
+
+\begin{align}
+\begin{split}
+\hat{\tilde{H}} = & \hat{U}^{\dagger}\hat{H}(t)\hat{U} + i\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} \\
+=  &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr\hat{k}\hat{U}^{\dagger}\hat{F}_z\hat{U} + \frac{1}{2}\Omega_0\cos\phi_2\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{U}^{\dagger}\hat{F}_y\hat{U} + \Delta\hat{U}^{\dagger}\hat{F}_z\hat{U} + \epsilon(\hat{U}^{\dagger}\hat{F}_z^2\hat{U}-\mathbb{I})+4E_r \hat{U}^{\dagger}\hat{F}_z^2\hat{U}.
+\end{split}
+\end{align}
+
+The transformations for the angular momentum operators that don't commute with $\hat{F}_x$ are given by: 
+%
+\begin{align}
+\begin{split}
+e^{i\theta \hat{F}_x} \hat{F}_z e^{-i\theta \hat{F}_x}=& \cos\theta \hat{F}_z + \sin\theta\hat{F}_y \\
+e^{i\theta \hat{F}_x} \hat{F}_y e^{-i\theta \hat{F}_x} =& -\sin\theta\hat{F}_z +\cos\theta\hat{F}_y \\
+e^{i\theta \hat{F}_x} \hat{F}_z^2 e^{-i\theta \hat{F}_x} = &\cos^2\theta\hat{F}_z^2+\sin^2\theta\hat{F}_y^2 + \sin\theta\cos\theta(\hat{F}_z\hat{F}_y + \hat{F}_y\hat{F}_z).
+\end{split}
+\end{align}
+
+The Jacobi–Anger expansion will be useful to write an (almost) exact expression for the transformed Hamiltonian:
+
+\begin{align}
+&\cos(z\sin\theta)= J_0(z) + 2\sum_{n=1}^{\infty}J_{2n}(z)\cos(2n\theta) \approx J_0(z) \\
+&\sin(z\sin\theta)= 2\sum_{n=0}^{\infty}J_{2n+1}(z)\sin((2n+1)\theta) \approx 0,
+\end{align} 
+%
+%
+so we can write
+
+\begin{align}
+\begin{split}
+\hat{\tilde{H}} = &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr J_0(\Omega/2\delta\omega)\hat{k}\hat{F}_z + \frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y)+ \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
+&+\epsilon(J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta))\hat{F}_y^2-\mathbb{I})+4E_r(J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2\\
+= & \frac{\hbar^2}{2m}(\hat{k}-2\kr J_0(\Omega/2\delta\omega)\hat{F}_z)^2 +\frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y) + \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
+& + \epsilon[J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2-\mathbb{I}]+2E_r (1-J_0(\Omega/\delta\omega))\hat{F}_y^2
+\end{split}
+\end{align}
+
+
+The terms on the last line can be simplified:
+
+\begin{align}
+\begin{split}
+\epsilon[J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(2\Omega/\delta))\hat{F}_y^2-\mathbb{I}]+2E_r (1-J_0(2\Omega/\delta))\hat{F}_y^2) = 
+\end{split}
+\end{align}
+
+
+This looks almost like a spin one spin-orbit coupled system with some extra weird terms and couplings between $m_f=1$ and $m_f= -1$. Adiabatic elimination of the $m_f=0$ (ground) state leads to an effective Hamiltonian
+
+\begin{align}
+\hat{H}_{eff} = \frac{\hbar^2}{2m}(\hat{k} - 2\kr     J_0(\Omega/\delta)\hat{F}_{2z})^2 + \Delta J_0(\Omega/\delta)\hat{F}_{2z}
+\end{align}
+
+%\begin{align}
+%e^{\pm iz\sin\theta} = J_0(z) + 2\sum_{n=1}^{\infty}J_{2n}(z)\cos(2n\theta) \pm 2i\sum_{n=0}^{\infty}J_{2n+1}(z)\sin((2n+1)\theta).
+%\end{align} 
