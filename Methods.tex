@@ -1,24 +1,206 @@
 \section{Methods}
 
-\subsection{Modulated/tripple frequency coupling (theory)}
+ 
+\subsection{Modulated Raman Coupling}
 
+
+Point to sell: modulations are cool. Maybe talk about pulsed optical lattices?
+Previous studies have shown that strong modulation in the Raman coupling strength for an effective spin $1/2$ system lead to tunable spin-orbit coupling strength. In addition to this the use of two Raman couplings with different frequencies in a spin one system which is equivalent to a single frequency amplitude modulated coupling leads to new magnetic phases. Here we extend the study of the effects of amplitude modulation of the Raman coupling strength. We will show that for a spin one system, we can tune the spin orbit-coupling strength and also engineer a cyclic coupling between the three hyperfine sublevels. We additionally introduce a new spectroscopic technique to resolve the spinful energy-momentum dispersion bands of the system. This work opens the ground for measurements of the Hofstadter butterfly. 
+
+Aqui un poco mas sobre por que me importa tunear y porque me importa la mariposa. 
+
+A spin-orbit coupled spin one system in the presence of a bias magnetic field The system is described by the Hamiltonian. 
+
+We consider an ultra-cold spin one system in a uniform applied magnetic field $B\boldmath\hat{e}_z$ that Zeeman splits the energy levels by $\hbar\omega_Z=g_f\mu_BB$. A quadratic Zeeman shift $\epsilon$ breaks the $m_f=\pm1\leftrightarrow m_f=0$ degeneracy. We generate spin-orbit coupling between the different spin states by using a pair of 
+
+\begin{align}
+	\begin{split}
+		\hat{H} = & \frac{\hbar^2}{2m}(\hat{k}+2\kr\hat{F}_z)^2 + \frac{\hbar\Omega_R}{2}\hat{F}_x+\epsilon(\hat{F}_z^2-\mathbb{I})  +\Delta\hat{F}_z  
+		\label{Eq:SOCone}
+	\end{split}
+\end{align}	
+
+where $\Omega0$ is 
+$\alpha0=\frac{\hbar^2k_L}{m}$
+
+
+The addition of a modulation in the Raman coupling strength of the form $\Omega_R(t)=\Omega0 + \Omega\cos(\delta\Omega t)$	leads to interesting. The exact energies of the system can be found using Floquet theory. We can alternatively try to find an effective Hamiltonian using a time dependent rotation. If the driving frequency is chosen so that  $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$ the Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients and quadratic Zeeman shift and an additional term that explicitly couples the $m_f=-1$ and $m_f=+1$ states. 
+
+
+
+In high field regime where the $m_f=-1\leftrightarrow m_f=0$ and $m_f=0 \leftrightarrow m_f=+1$ transition can't be addressed with the same frequency and when $\epsilon > 4E_R$ the system can be described in terms of an effective spin $\frac{1}{2}$ model by adiabatically eliminating the $m_f=0$ state (cite lindsay's paper here). In this case the system is described by the effective Hamiltonian 
+
+\begin{align}
+	\begin{split}
+		\hat{H} = & \frac{\hbar^2}{2m}(\hat{k}+2\kr\hat{\sigma}_z)^2 + \frac{\hbar\tilde{\Omega_0}}{2}\hat{F}_x  +\Delta\hat{\sigma}_z  
+	\label{Eq:SOChalf}
+	\end{split}
+\end{align}	
+ 
+where the Raman coupling strength is $\tilde{\Omega_0}=\hbar\Omega_0^2/2(4E_R-\epsilon)$ which directly couples the $m_f=-1$ and $m_f=+1$ states. 
+
+(maybe this after modulation stuff?)
+
+
+
+Show matrix Hamiltonian here:
+
+There are to limiting cases which could be of interest: (1) for large quadratic Zeeman shift the system can be described as an effective spin $1/2$ system where the spin orbit coupling strength and the Raman coupling can be independently tuned and (2) for small quadratic Zeeman shift we can tune the $m_f=+1\leftrightarrow m_f=-1$ and $m_f=0\leftrightarrow m_f=\pm 1$ coupling strength as well as the spin-orbit coupling strength while keeping the energies of the $m_f$ states degenerate. Addition of an optical lattice can lead to  measurements of Hofstadter butterfly  .  
+
+
+
+Here technical stuff
+
+$F=1$ ground state manifold of $^87Rb$ atoms. A bias field $\hat{e}_z$ breaks the degeneracy between the $m_f$ magnetic sub levels. We generate spin-orbit coupling with a pair of Raman beams propagating along $\hat{e}_x \pm \hat{e}_y$ and with frequencie
+
+
+
+Consider 3 pairs of Raman beamsg coupling the three $m_f$ states in the $\Rb87$ $F=1$ manifold as shown in fig no... . The Hamiltonian descr ibing the interaction is: 
+
+%
+\begin{align}
+	\hat{H}_R(t) = \lbrace\Omega_{21}\cos(2\kr x-\omega_{21} t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x-\omega_{31} t-\frac{\phi_1}{2})+\Omega_{41}\cos(2\kr x-\omega_{41} t + \phi_2)\rbrace\hat{F_x}
+\end{align}
+%
+%
+where $\Omega_{ij}\propto \vec{E_i}\times\vec{E_j^{\star}}$ represents the coupling strenght associated to each pair of Raman beams and $\omega_{ij} = \omega_{i}-\omega_{j} $. The frequencies are chosen so that $\omega_{31} + \omega{21}$ is at 4 photon resonance with the $m_f = +1\rightarrow m_f = -1$. Under a rotation about the z axis $\hat{U} = e^{i\omega t\hat{F}_z}$ at frequency $\bar{\omega} = \frac{\omega_{21}+\omega_{31}}{2}$, and after applying the rotating wave approximation (RWA), the Hamiltonian transforms to 
+%
+%
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}}_R(t) = & \hat{U}^{\dagger} \hat{H}_R(t)\hat{U} \\
+		= & \frac{1}{2}\lbrace\Omega_{21}\cos(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\cos(2\kr x+(\bar{\omega}-\omega_{31}) t -\frac{\phi_1}{2}) \\
+		& +\Omega_{41}\cos(2\kr x+(\bar{\omega}-\omega_{41}) t + \phi_2)\rbrace \hat{F}_x \\
+		& -  \frac{1}{2}\lbrace\Omega_{21}\sin(2\kr x+(\bar{\omega}-\omega_{21}) t +\frac{\phi_1}{2})+\Omega_{31}\sin(2\kr x+(\bar{\omega}-\omega_{31}) t-\frac{\phi_1}{2})\\
+		&+\Omega_{41}\sin(2\kr x+(\bar{\omega}-\omega_{41}) t+\phi_2)\rbrace \hat{F}_y
+	\end{split}
+\end{align}
+%
+%
+where we have used 
+%
+\begin{align}
+	e^{-i\theta \hat{F}_z} \hat{F}_x e^{i\theta \hat{F}_z}= \cos\theta \hat{F}_x + \sin\theta\hat{F}_y
+\end{align}
+%
+and applied the rotating wave approximation (RWA)to get rid of the fast terms. 
+
+I want the time dependent Hamiltonian to look like it has a constant offset and a frequency modulated term. This can be done by choosing $\Omega_{21} =\Omega_{31} = \Omega $, $\Omega_{41}=\Omega_0$, and $\omega_{41} =\frac{\omega_{21}+\omega_{31}}{2}$. The Hamiltonian is now reduced to 
+%
+%
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}}_R(t) = \frac{\Omega}{2}\cos(\delta\omega t)[\cos(2\kr x)\hat{F}_x - \sin(2\kr x)\hat{F}_y] + \frac{\Omega_{0}}{2}[\cos(2\kr x + \phi_2)\hat{F}_x - \sin(2\kr x + \phi_2)\hat{F}_y] \\
+	\end{split}
+\end{align}
+%
+%
+where $\delta\omega=\frac{\omega_{31}-\omega_{21}}{2}$. Also notice that by redefining the time origin I can get rid of the first phase. 
+
+Things are looking good so far!
+
+Now I can apply the usual x dependent rotation $\hat{U} = e^{i2\kr x \hat{F}_z}$. I won't work out all the algebra explicitly here, but the complete system's Hamiltonian (in the interaction picture) should be something like
+%
+%
+\begin{align}
+	\begin{split}
+		\hat{H}(t) = & \frac{\hbar^2}{2m}(\hat{k}-2\kr\hat{F}_z)^2 + \frac{1}{2}[\Omega_0\cos\phi_2 + \Omega\cos(\delta\omega t)]\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{F}_y +\Delta\hat{F}_z + \epsilon(\hat{F}_z^2-\mathbb{I}) \\
+		= &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr \hat{k}\hat{F}_z +4E_r\hat{F}_z^2 + \frac{1}{2}[\Omega_0\cos\phi_2 + \Omega(t)]\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{F}_y + \Delta\hat{F}_z +
+		\epsilon(\hat{F}_z^2-\mathbb{I}) ,
+	\end{split}
+\end{align}
+%
+%
+with $\Omega(t)=\Omega\cos(\delta\omega t)$.
+
+To get rid of the time dependence in the Hamiltonian and ultimately getting the `tunable' spin-orbit coupling we can choose a transoformation of the Hamiltonian such that $\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} = -i \frac{\Omega(t)}{2}\hat{F}_x$. This will be satisfied for
+
+\begin{align}
+	\hat{U} = e^{-i\frac{\Omega}{2}\int_0^t\cos(\delta\omega t')dt'} = e^{-i\frac{\Omega}{2\delta\omega}\sin(\delta\omega t)}.
+\end{align}
+
+Under this time dependent transformation, the time evolution of the system will be given by
+%
+
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}} = & \hat{U}^{\dagger}\hat{H}(t)\hat{U} + i\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} \\
+		=  &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr\hat{k}\hat{U}^{\dagger}\hat{F}_z\hat{U} + \frac{1}{2}\Omega_0\cos\phi_2\hat{F}_x - \frac{1}{2}\Omega_0\sin\phi_2\hat{U}^{\dagger}\hat{F}_y\hat{U} + \Delta\hat{U}^{\dagger}\hat{F}_z\hat{U} + \epsilon(\hat{U}^{\dagger}\hat{F}_z^2\hat{U}-\mathbb{I})+4E_r \hat{U}^{\dagger}\hat{F}_z^2\hat{U}.
+	\end{split}
+\end{align}
+
+The transformations for the angular momentum operators that don't commute with $\hat{F}_x$ are given by: 
+%
+\begin{align}
+	\begin{split}
+		e^{i\theta \hat{F}_x} \hat{F}_z e^{-i\theta \hat{F}_x}=& \cos\theta \hat{F}_z + \sin\theta\hat{F}_y \\
+		e^{i\theta \hat{F}_x} \hat{F}_y e^{-i\theta \hat{F}_x} =& -\sin\theta\hat{F}_z +\cos\theta\hat{F}_y \\
+		e^{i\theta \hat{F}_x} \hat{F}_z^2 e^{-i\theta \hat{F}_x} = &\cos^2\theta\hat{F}_z^2+\sin^2\theta\hat{F}_y^2 + \sin\theta\cos\theta(\hat{F}_z\hat{F}_y + \hat{F}_y\hat{F}_z).
+	\end{split}
+\end{align}
+
+The Jacobi–Anger expansion will be useful to write an (almost) exact expression for the transformed Hamiltonian:
+
+\begin{align}
+	&\cos(z\sin\theta)= J_0(z) + 2\sum_{n=1}^{\infty}J_{2n}(z)\cos(2n\theta) \approx J_0(z) \\
+	&\sin(z\sin\theta)= 2\sum_{n=0}^{\infty}J_{2n+1}(z)\sin((2n+1)\theta) \approx 0,
+\end{align} 
+%
+%
+so we can write
+
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}} = &\frac{\hbar^2\hat{k}^2}{2m} - \frac{\hbar^2}{m}2\kr J_0(\Omega/2\delta\omega)\hat{k}\hat{F}_z + \frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y)+ \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
+		&+\epsilon(J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta))\hat{F}_y^2-\mathbb{I})+4E_r(J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2\\
+		= & \frac{\hbar^2}{2m}(\hat{k}-2\kr J_0(\Omega/2\delta\omega)\hat{F}_z)^2 +\frac{\Omega_0}{2}(\cos\phi_2\hat{F}_x - \sin\phi_2J_0(\Omega/2\delta\omega)\hat{F}_y) + \Delta J_0(\Omega/2\delta\omega)\hat{F}_z \\
+		& + \epsilon[J_0^2(\Omega/2\delta\omega)\hat{F}_z^2 + \frac{1}{2}(1-J_0(\Omega/\delta\omega))\hat{F}_y^2-\mathbb{I}]+2E_r (1-J_0(\Omega/\delta\omega))\hat{F}_y^2
+	\end{split}
+\end{align}
+
+
+The terms on the last line can be simplified:
+
+\begin{align}
+	\begin{split}
+		\epsilon[J_0^2(\Omega/\delta)\hat{F}_z^2 + \frac{1}{2}(1-J_0(2\Omega/\delta))\hat{F}_y^2-\mathbb{I}]+2E_r (1-J_0(2\Omega/\delta))\hat{F}_y^2) = 
+	\end{split}
+\end{align}
+
+
+This looks almost like a spin one spin-orbit coupled system with some extra weird terms and couplings between $m_f=1$ and $m_f= -1$. Adiabatic elimination of the $m_f=0$ (ground) state leads to an effective Hamiltonian
+
+\begin{align}
+	\hat{H}_{eff} = \frac{\hbar^2}{2m}(\hat{k} - 2\kr     J_0(\Omega/\delta)\hat{F}_{2z})^2 + \Delta J_0(\Omega/\delta)\hat{F}_{2z}
+\end{align}
+
+%\begin{align}
+%e^{\pm iz\sin\theta} = J_0(z) + 2\sum_{n=1}^{\infty}J_{2n}(z)\cos(2n\theta) \pm 2i\sum_{n=0}^{\infty}J_{2n+1}(z)\sin((2n+1)\theta).
+%\end{align} 
 
 \subsection{Fourier Spectroscopy}		
 
-The Fourier Spectroscopy technique takes advantage of the time evolution of a bare atomic state after a dressing field is suddenly turned. The initial state becomes a superposition of dressed states and it undergoes Rabi oscillations in time. The spectral components of these oscillations contain information about the energies of the dressed states. 
+We present a new method to measure the spinful dispersion relations of the system as well as for the future measurement of the Hofstadter Butterfly spectrum, the Fourier Spectroscopy technique, which relies on the time evolution of an atomic state after a dressing field is suddenly turned. An initial bare state becomes a superposition of dressed states and it undergoes Rabi oscillations in time, with spectral components related to the relative energies of the dressed states. 
 
-Aquí algo sobre el caso particular de las energias SOC.
+%. The spectral components of these oscillations contain information about the energies of the dressed states. 
 
-The measurement can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a suitable moving reference frame. As can also be seen in the Hamiltonian (citarlo aqui)  the detuning term $\delta/Er$  and the momentum term $4 k/k_R$ have the same effect in the energy differences.
+For the case of a spin-orbit coupled atomic system, the dressed state energies are explicitly dependent on the particle's both spin and momentum. Therefore, in order to fully characterize the energy-momentum dispersion we must prepare an atomic state at a given spin and momentum $\ket{k_i,m_{f_i}}$, pulse on the Raman field, and measure the time dependent oscillations of the final states $\ket{k,m_f}$. % ($m_f=0,\pm1$, $k=0,\pm 2\kr$)
+
+The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a suitable moving reference frame. This can be explicitly seen in the Hamiltonian (citarlo aqui) where the detuning term $\delta/Er$  and the momentum term $4 k/k_R$ have the same effect in the energy differences up to a numerical pre factor.
+
+It is important to emphasize that the method described above so far only allows us to measure relative energies. We must add a known energy reference if we want to recover In the case of spin-orbit coupled systems with a high quadratic Zeeman shift, the lowest branch of the dispersion curve is nearly quadratic and one can directly measure the effective mass.  We can therefore convert to absolute energies by adding the dispersion of the lower branch.
 
 
-For the case of our spin-orbit coupled BECs, the bare state
 The system is let to evolve for a finite time T and afterwards the field is snapped off. A Stern-Gerlach pulse applied at our 21 ms time of flight (TOF) allows us to project the state of the condensate back into the bare $m_f$ basis. 
 
 
+We start our experimental sequence with a Bose Einstein condensate with $40\times 10^5$ $^{87}Rb$ atoms in the $F=1$ ground state manifold. We adiabatically transfer the atoms into the $\ket{F=1,m_f=0}$ state using a combination of radio frequency and a bias magnetic fields (cite adiabatic rapid passage, etc). We then turn on our Raman lasers with some given detuning and let the system evolve for a time $T$. After we snap off the field we let the atoms expand in time of flight and apply a Stern-Gerlach pulse which allows us to resolve the different spin components and directly extract the spin dependent time evolution of the system. We repeat this procedure for different pulsing times and detunings between $-12 E_R$ and $12 E_R$. The spacing and the total number of pulse times for a given detuning value were chosen so that the bandwith and resolution of the Fourier transform were appropriate given the energy scales of the system. The frequencies were extracted using the Lasso algorithm,which given $n$ data points $y$ and $p$ basis functions $x$, seeks to minimize the quantity
+
+\begin{align}
+	\sum_{i=1}^{n}(y_i-\sum_{j}x_{ij}\beta_j)^2+\lambda\sum_{j=1}^{p}\lvert\beta\rvert
+\end{align}
+
+which is equivalent to a least square fit with a constraint on the L1 norm of the fit coefficients.Here we used the real part of the Fourier basis as our basis functions and the constraint constraint helped to reduce the spectral noise and allowed us to identify the main frequencies of the problem more easily.
 
 
-
-For the experimental sequence we start 
-
-
+(Tibshirani, 1995)
