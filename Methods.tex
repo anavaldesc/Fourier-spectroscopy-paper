@@ -107,13 +107,15 @@ It is important to emphasize that the method described above so far only allows 
 The system is let to evolve for a finite time T and afterwards the field is snapped off. A Stern-Gerlach pulse applied at our 21 ms time of flight (TOF) allows us to project the state of the condensate back into the bare $m_f$ basis. 
 
 
-We start our experimental sequence with a Bose Einstein condensate with $40\times 10^5$ $^{87}Rb$ atoms in the $F=1$ ground state manifold. We adiabatically transfer the atoms into the $\ket{F=1,m_f=0}$ state using a combination of radio frequency and a bias magnetic fields (cite adiabatic rapid passage, etc). We then turn on our Raman lasers with some given detuning and let the system evolve for a time $T$. After we snap off the field we let the atoms expand in time of flight and apply a Stern-Gerlach pulse which allows us to resolve the different spin components and directly extract the spin dependent time evolution of the system. We repeat this procedure for different pulsing times and detunings between $-12 E_R$ and $12 E_R$. The spacing and the total number of pulse times for a given detuning value were chosen so that the bandwith and resolution of the Fourier transform were appropriate given the energy scales of the system. The frequencies were extracted using the Lasso algorithm,which given $n$ data points $y$ and $p$ basis functions $x$, seeks to minimize the quantity
+We start our experimental sequence with a Bose Einstein condensate with $40\times 10^5$ $^{87}Rb$ atoms in the $F=1$ ground state manifold. We adiabatically transfer the atoms into the $\ket{F=1,m_f=0}$ state using a combination of radio frequency and a bias magnetic fields (cite adiabatic rapid passage, etc). We then turn on our Raman lasers with some given detuning and let the system evolve for a time $T$. After we snap off the field we let the atoms expand in time of flight and apply a Stern-Gerlach pulse which allows us to resolve the different spin components and directly extract the spin dependent time evolution of the system. We repeat this procedure for different pulsing times and detunings between $-12 E_R$ and $12 E_R$. 
+
+The spacing and the total number of pulse times for a given detuning value were chosen so that the bandwith and resolution of the Fourier transform were appropriate given the energy scales of the system. The frequencies were extracted using the Lasso algorithm,which given $n$ data points $y$ and $p$ basis functions $x$, seeks to minimize the quantity
 
 \begin{align}
 	\sum_{i=1}^{n}(y_i-\sum_{j}x_{ij}\beta_j)^2+\lambda\sum_{j=1}^{p}\lvert\beta\rvert
 \end{align}
 
-which is equivalent to a least square fit with a constraint on the L1 norm of the fit coefficients.Here we used the real part of the Fourier basis as our basis functions and the constraint constraint helped to reduce the spectral noise and allowed us to identify the main frequencies of the problem more easily.
+%which is equivalent to a least square fit with a constraint on the L1 norm of the fit coefficients.Here we used the real part of the Fourier basis as our basis functions and the constraint constraint helped to reduce the spectral noise and allowed us to identify the main frequencies of the problem more easily.
+%(Tibshirani, 1995)
 
 
-(Tibshirani, 1995)

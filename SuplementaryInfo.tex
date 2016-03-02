@@ -1,0 +1,120 @@
+\section{Supplementary Information}
+lalala
+
+\subsection{Effective SOC Hamiltonian}	
+
+We begin by considering the electric dipole Hamiltonian that describes the interaction between a triple frequency Raman light field and the atoms
+
+\begin{align}
+	\hat{H}_{AL}(t) = \left[\Omega_{21}\cos(2\kr x-\omega_{21} t +\phi_1)+\Omega_{31}\cos(2\kr x-\omega_{31} t+\phi_2)+\Omega_{41}\cos(2\kr x-\omega_{41} t + \phi_3)\right]\hat{F_x}
+\end{align}
+%
+(maybe rename phases?)
+%
+where $\Omega_{ij}\propto \vec{E_i}\times\vec{E_j^{\star}}$ represents the coupling strength associated to each pair of Raman beams and $\omega_{ij} = \omega_{i}-\omega_{j} $. We choose the frequencies so that $\omega_{31} + \omega{21}$ is at 4 photon resonance with the $m_f = +1\rightarrow m_f = -1$ transition. We then apply a rotation about the z axis $\hat{U} = e^{i\bar{\omega} t\hat{F}_z}$ where $\bar{\omega} = \frac{\omega_{21}+\omega_{31}}{2}$. For the choice of parameters 
+$\Omega_{21} =\Omega_{31} = \Omega $, $\Omega_{41}=\Omega_0$, and $\omega_{41} =\frac{\omega_{21}+\omega_{31}}{2}$,and after applying the rotating wave approximation (RWA), the Hamiltonian transforms to  
+%
+%
+
+	
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}}_{AL}(t) &= \frac{1}{2}\lbrace\Omega\cos(2\kr x+\delta\omega t +\phi_1)+\Omega\cos(2\kr x-\delta\omega t + \phi_2) +\Omega_0\cos(2\kr x + \phi_3)\rbrace \hat{F}_x \\
+		& -  \frac{1}{2}\lbrace\Omega\sin(2\kr x+\delta\omega t +\phi_1)+\Omega\sin(2\kr x-\delta\omega t +\phi_2)+\Omega_0\sin(2\kr x +\phi_3)\rbrace \hat{F}_y
+	\end{split}
+\end{align}
+
+we have the freedom of defining the time origin so we can get rid of one phase, lets make it $\phi_3$ for convenience. Can I get rid of a second phase? Make $\phi_1 = -\phi_2$
+ 
+ %
+ %
+\begin{align}
+ 	\begin{split}
+ 		\hat{\tilde{H}}_{AL}(t)  = [\frac{\Omega_0}{2} + \Omega\cos(\delta\omega t+\phi_1)][\cos(2\kr x)\hat{F}_x - \sin(2\kr x)\hat{F}_y],
+ 	\end{split}
+\end{align}
+
+
+where we have defined $\delta\omega=\frac{\omega_{31}-\omega_{21}}{2}$. This Hamiltonian term describes a helically precessing effective Zeeman field with amplitude oscillating periodically in time. 
+
+The complete Hamiltonian can therefore be written as
+
+\begin{align}
+	\begin{split}
+		\hat{H}(t)=\frac{\hbar^2}{2m}\hat{k}^2 + \mu\mathbf{B}_{eff}\cdot\hat{\mathbf{F}}
+		\label{Eq:Beff}
+	\end{split}
+\end{align}
+
+(check units here)
+with $\mu\mathbf{B}_{eff}=(\frac{\Omega_0}{2} + \Omega\cos(\delta\omega t+\phi_1))(\cos(2\kr x)\mathbf{e}_x-\sin(2\kr x)\mathbf{e}_y)$
+
+
+We can apply a position dependent rotation $\hat{U} = e^{i2\kr x \hat{F}_z}$ transforms our Hamiltonian into the form of Eq. \ref{Eq:SOCone} with a time dependent Raman coupling.
+
+\begin{align}
+	\begin{split}
+		\hat{H}(t) = & \frac{\hbar^2}{2m}(\hat{k}-2\kr\hat{F}_z)^2 + (\frac{\Omega_0}{2} + \Omega\cos(\delta\omega t))\hat{F}_x \\& + \epsilon(\hat{F}_z^2-\mathbb{I})+\Delta\hat{F}_z \\
+		=&\frac{\hbar^2\hat{k}^2}{2m} + \alpha_0\hat{k}\hat{F}_z +4E_L\mathbb{I} + \frac{\Omega(t)}{2}\hat{F}_x\\
+		& +(\epsilon+4E_L)(\hat{F}_z^2-\mathbb{I}) +\Delta\hat{F}_z 
+	\end{split}
+\end{align}
+
+(check factors of 2!)
+
+To get rid of the time dependence in the Hamiltonian and ultimately getting the `tunable' spin-orbit coupling we can choose a transoformation of the Hamiltonian such that $\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} = -i \frac{\Omega(t)}{2}\hat{F}_x$. This will be satisfied for
+
+\begin{align}
+	\hat{U} = e^{-i\frac{\Omega}{2}\int_0^t\cos(\delta\omega t')dt'} = e^{-i\frac{\Omega}{2\delta\omega}\sin(\delta\omega t)}.
+\end{align}
+
+Under this time dependent transformation, the time evolution of the system will be given by the Hamiltonian
+%
+
+\begin{align}
+	\begin{split}
+		\hat{\tilde{H}} = & \hat{U}^{\dagger}\hat{H}(t)\hat{U} + i\hat{U}^{\dagger} \frac{\partial\hat{U}}{\partial t} 	
+	\end{split}
+\end{align}
+
+
+Where we have transformed the operators that don't commute with $\hat{F}_x$ as
+
+The transformations for the angular momentum operators that don't commute with $\hat{F}_x$ are given by: 
+%
+\begin{align}
+	\begin{split}
+		e^{i\theta \hat{F}_x} \hat{F}_z e^{-i\theta \hat{F}_x}=& \cos\theta \hat{F}_z + \sin\theta\hat{F}_y \\
+		e^{i\theta \hat{F}_x} \hat{F}_y e^{-i\theta \hat{F}_x} =& -\sin\theta\hat{F}_z +\cos\theta\hat{F}_y \\
+		e^{i\theta \hat{F}_x} \hat{F}_z^2 e^{-i\theta \hat{F}_x} = &\cos^2\theta\hat{F}_z^2+\sin^2\theta\hat{F}_y^2 + \sin\theta\cos\theta(\hat{F}_z\hat{F}_y + \hat{F}_y\hat{F}_z).
+	\end{split}
+\end{align}
+
+and neglected the terms oscillating at high frequency
+
+\begin{align}
+	\begin{split}
+	\cos(\Omega/2\delta\omega\sin(\delta\omega t))&= J_0(\Omega/2\delta\omega) + 2\sum_{n=1}^{\infty}J_{2n}(\Omega/2\delta\omega)\cos(2n(\delta\omega t)) \\
+	& \approx J_0(\Omega/2\delta\omega) \\
+	\sin(\Omega/2\delta\omega\sin(\delta\omega t))&= 2\sum_{n=0}^{\infty}J_{2n+1}(\Omega/2\delta\omega)\sin((2n+1)(\delta\omega t)) \approx 0,
+	\end{split}
+\end{align} 
+
+
+(verify how large $\delta\omega$ needs to be for this approximation to be valid)
+%
+%
+ 
+%\subsection{Effective two level system}
+%\subsection{Floquet?}
+%\subsection{Coupling strength and detuning calibrations}
+%\subsection{Magnetic field stabilization}
+
+%\begin{align}
+%	\begin{split}
+%		\hat{\tilde{H}}_R(t)= &\frac{1}{2}\lbrace\Omega_{21}\cos(2\kr x+(\bar{\omega}-\omega_{21}) t ++\phi_1)+\Omega_{31}\cos(2\kr x+(\bar{\omega}-\omega_{31}) t -\frac{\phi_1}{2}) \\
+%		& +\Omega_{41}\cos(2\kr x+(\bar{\omega}-\omega_{41}) t + \phi_2)\rbrace \hat{F}_x \\
+%		& -  \frac{1}{2}\lbrace\Omega_{21}\sin(2\kr x+(\bar{\omega}-\omega_{21}) t +\phi_1)+\Omega_{31}\sin(2\kr x+(\bar{\omega}-\omega_{31}) t-\frac{\phi_1}{2})\\
+%		&+\Omega_{41}\sin(2\kr x+(\bar{\omega}-\omega_{41}) t+\phi_2)\rbrace \hat{F}_y
+%	\end{split}
+%\end{align}
