@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 MAR 2016 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 MAR 2016 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,18 +284,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-) (./Results.tex) (./Discussion.tex) (./Conclusion.tex) (./Calculations.tex [3]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-)
-(./SuplementaryInfo.tex [4] [5])
+) (./Results.tex) (./Discussion.tex) (./Conclusion.tex) (./SuplementaryInfo.tex
+ [3] [4])
 No file MolmerSorensen.bbl.
-[6] (./MolmerSorensen.aux) ) 
+[5] (./MolmerSorensen.aux) ) 
 Here is how much of TeX's memory you used:
- 4027 strings out of 493089
- 51443 string characters out of 6134842
- 148983 words of memory out of 5000000
+ 4024 strings out of 493089
+ 51397 string characters out of 6134842
+ 140982 words of memory out of 5000000
  7449 multiletter control sequences out of 15000+600000
  7823 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -319,10 +315,10 @@ y5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msbm7.pfb>
-Output written on MolmerSorensen.pdf (6 pages, 217106 bytes).
+Output written on MolmerSorensen.pdf (5 pages, 211884 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
