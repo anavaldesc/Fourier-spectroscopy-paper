@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Methods}{3}
+\contentsline {subsection}{\numberline {2.1}Modulated Raman Coupling}{3}
+\contentsline {subsection}{\numberline {2.2}Fourier Spectroscopy}{4}
+\contentsline {subsection}{\numberline {2.3}Experimental sequence}{5}
+\contentsline {section}{\numberline {3}Results}{6}
+\contentsline {section}{\numberline {4}Discussion}{6}
+\contentsline {section}{\numberline {5}Conclusion}{6}
+\contentsline {section}{\numberline {6}Supplementary Information}{7}
+\contentsline {subsection}{\numberline {6.1}Effective SOC Hamiltonian}{7}
+\contentsline {subsection}{\numberline {6.2}Effective two level system}{8}
+\contentsline {subsection}{\numberline {6.3}Coupling strength and detuning calibrations}{8}
+\contentsline {subsection}{\numberline {6.4}Magnetic field stabilization}{9}

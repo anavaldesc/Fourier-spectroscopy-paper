@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 MAR 2016 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 MAY 2016 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,149 +6,101 @@ entering extended mode
 (./MolmerSorensen.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
-cumentation)
- Copyright (c) 2001 The American Physical Society.
- mailto:revtex@aps.org
- Licensed under the LPPL:
-http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <ogawa@teleport.com>
- Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
-ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
-Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
-\intertabularlinepenalty=\count79
-\@tbpen=\count80
-\@arstrutbox@hline=\box26
-Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
-ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
-\c@linecount=\count81
-\output=\toks14
-\@protection@box=\box27
-\@topmark@saved=\toks15
-\footins@saved=\box28
-\pagesofar=\box29
-\footbox=\box30
-\pagegrid@col=\count82
-Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
-ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+(./iopart.cls
+Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
+(./iopart10.clo
+File: iopart10.clo 1997/01/13 v1.0 IOP Book file (size option)
 )
-\c@affil=\count83
-\absbox=\box31
-\c@part=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
+\c@jnl=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\c@figure=\count90
-\c@table=\count91
+\indentedwidth=\skip43
+\mathindent=\dimen102
+\c@eqnval=\count87
+) (./iopams.sty
+Package: iopams 1997/02/13 v1.0
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count92
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
 )
-\widetext@top=\box32
-\widetext@bot=\box33
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
-tion)
-LaTeX Info: Redefining \REV@mathfrak on input line 118.
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Info: Redefining \frak on input line 111.
-LaTeX Info: Redefining \Bbb on input line 113.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
-\ex@=\dimen102
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen103
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box34
-\strutbox@=\box35
-\big@size=\dimen104
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
-\dotsspace@=\muskip11
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks18
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks19
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
-\@envbody=\toks20
-\multlinegap=\skip46
-\multlinetaggap=\skip47
-\mathdisplay@stack=\toks21
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
-n)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
-on)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks19
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
@@ -170,10 +122,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count105
+\Gread@gobject=\count100
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 \@input{macros.aux}
 \openout2 = `macros.aux'.
@@ -181,35 +133,32 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./macros.tex) (./MolmerSorensen.aux)
 \openout1 = `MolmerSorensen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-Class revtex4 Info: Patching LaTeX tabular. on input line 8.
-Class revtex4 Info: cite was not loaded (OK!) on input line 8.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen113
-\scratchbox=\box36
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen114
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count101
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen115
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -258,67 +207,89 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./Introduction.tex
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ³ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ³ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ³ in font cmr10!
-) (./Methods.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 10.
+[1
+
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./MolmerSorensen.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 10.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-) (./Results.tex) (./Discussion.tex) (./Conclusion.tex) (./SuplementaryInfo.tex
- [3] [4])
-No file MolmerSorensen.bbl.
-[5] (./MolmerSorensen.aux) ) 
+))
+\tf@toc=\write3
+\openout3 = `MolmerSorensen.toc'.
+
+
+(./Introduction.tex [2]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no º in font cmr10!
+) (./Methods.tex [3]
+<./Figures/laserfreqsv4.pdf, id=26, 1123.88878pt x 839.35579pt>
+File: ./Figures/laserfreqsv4.pdf Graphic file (type pdf)
+
+<use ./Figures/laserfreqsv4.pdf>
+Package pdftex.def Info: ./Figures/laserfreqsv4.pdf used on input line 72.
+(pdftex.def)             Requested size: 256.0748pt x 191.2419pt.
+ [4] [5 <./Figures/laserfreqsv4.pdf>])
+(./Results.tex) (./Discussion.tex) (./Conclusion.tex) (./SuplementaryInfo.tex
+[6]
+Overfull \hbox (58.78412pt too wide) in paragraph at lines 11--11
+[] 
+ []
+
+
+Overfull \hbox (10.92012pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 48--50
+[]\OT1/cmr/m/n/10 (check units here) with $\OML/cmm/m/it/10 ^^V\OT1/cmr/bx/n/10
+ B[] \OT1/cmr/m/n/10 = ([] + 
+ [](\OML/cmm/m/it/10 ^^N!t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n
+/10 ))([](2[]\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OT1/cmr/bx/n/10 e[] \OMS/cmsy/
+m/n/10 ^^@
+ []
+
+[7] [8]) [9] (./MolmerSorensen.aux) ) 
 Here is how much of TeX's memory you used:
- 4024 strings out of 493089
- 51397 string characters out of 6134842
- 140982 words of memory out of 5000000
- 7449 multiletter control sequences out of 15000+600000
- 7823 words of font info for 30 fonts, out of 8000000 for 9000
+ 2812 strings out of 493089
+ 33679 string characters out of 6134842
+ 109670 words of memory out of 5000000
+ 6245 multiletter control sequences out of 15000+600000
+ 7825 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,28p,994b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm7.pfb>
-Output written on MolmerSorensen.pdf (5 pages, 211884 bytes).
+ 37i,18n,26p,966b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm7.pfb>
+Output written on MolmerSorensen.pdf (9 pages, 1085375 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 186 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

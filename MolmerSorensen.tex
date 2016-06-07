@@ -1,33 +1,33 @@
-\documentclass[amsmath,amssymb,floatfix,pra,]{revtex4}
-%\documentclass[preprint,preprintnumbers,superscriptaddress,amsmath,amssymb,floatfix,prl]{revtex4-1}
+\documentclass{iopart}
+%[amsmath,amssymb,floatfix]
 
-\usepackage{graphicx}           % Include figure files
-\newcommand{\documentpath}{.}
+\usepackage{iopams}
+\expandafter\let\csname equation*\endcsname\relax
+\expandafter\let\csname endequation*\endcsname\relax
+\usepackage{amsmath}
+
+
+\usepackage{graphicx}       % Include figure files
+\newcommand{\documentpath}{./Figures}
 \include{macros}
 
 \begin{document}
+		
+\title{Fourier spectroscopy of a spin-orbit coupled Bose gas}
 	
-\title{Forier spectroscopy of a tunable spin-orbit coupled Bose gas}
-	
-\author{Ana Vald\'es-Curiel}
-\affiliation{Joint Quantum Institute, University of Maryland and National Institute of Standards and Technology, College Park, Maryland, 20742, USA}
+\author{Ana Vald\'es-Curiel, Dimitri Trypogeorgos, Erin Marshall, Ian B. Spielman}
+\address{Joint Quantum Institute, University of Maryland and National Institute of Standards and Technology, College Park, Maryland, 20742, USA}
 \date{\today}
 
 \begin{abstract}
 	%Here we look at soc-ed bose gas with modulation. Technique generalizes the proposal of (Karina) and opens the door to generating cyclic couplings between $m_f=+1$ and $m_f=+1$ we propose a new method of probing the energy-momentum dispersion of a spin-orbit coupled quantum gas
 	
-	The coupling between an electron's spin and motion . The high degree of control in cold atoms systems makes them ideal candidates for studying new phases of matter and simulating quantum systems. Here generate spin-orbit coupling in a spin-1 Bose-Einstein condensate using Raman transitions. We are able to measure the system's spin and momentum dependent energy spectrum by looking at the time evolution of the three spin states. We drive transitions at different detunings from Raman resonance and extract the Fourier components of the time dependent evolution to reconstruct the spectrum. We also add a periodic modulation to one Raman field which allows us to have a fully tunable spin-orbit coupling dispersion that we can directly measure using our spectroscopy technique. 
-	
+	The coupling between an electron's spin and motion lies withing the heart cool things in condensed matter systems. The high degree of control in cold atoms systems makes them ideal candidates for studying new phases of matter and simulating quantum systems. Here we generate spin-orbit coupling in a spin-1 Bose-Einstein condensate using Raman transitions. We are able to measure the system's spin and momentum dependent energy spectrum by looking at the time evolution of the three spin states. We drive transitions at different detunings from Raman resonance and extract the Fourier components of the time dependent evolution to reconstruct the spectrum. We also add a periodic modulation to one Raman field which allows us to have a fully tunable spin-orbit coupling dispersion that we can directly measure using our spectroscopy technique. (maybe switch the order of the last ant previous to last things ideas introduced)
+	Mention this allows also to look at the Floquet quasienergies?
 \end{abstract}
 
 \maketitle
-
-%\begin{affiliations}
-% \item Joint Quantum Institute, University of Maryland, College Park, Maryland,
-%20742, USA
-%\end{affiliations}
-
-%\input{Calculations}
+\tableofcontents
 
 \input{Introduction}
 
@@ -53,6 +53,6 @@
 
 %\item[Correspondence] Correspondence and requests for materials should be addressed to I.B.S.~ (email: ian.spielman@nist.gov).
 
-\bibliography{MolmerSorensen}
+%\bibliography{MolmerSorensen}
 
 \end{document}
