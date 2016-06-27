@@ -4,45 +4,113 @@
 
 %Point to sell: modulations are cool and deep in the heart of atomic physics. Maybe talk about pulsed optical lattices? Modulated Raman stuff from the group with cool frequency ramps? Read Dalibards paper on modulated systems for inspiration, Read ians paper on detecting topological matter using cold atoms for more inspiration.
 
-The the relation between the dynamics/time evolution of a system is rooted in the heart of quantum mechanics. 
-
-Does driving strength exceed transition frequency? No, but it does exceed the quadratic zeeman shift. 
-
-From the floquet paper: The observed  system dynamics is very well described in terms of
-quasienergies and quasienergy states, as predicted by
-Floquet theory. In particular, we observe several frequency
-components in the dynamics, in very good agreement with
-theory
-
-Think about the coupling strength vs quadratic zeeman shift in terms of excited floquet states. 
-
-Think about fourier spectroscopy for Bloch bands.
-
-In analogy to solid state stuff we introduce a new Fourier based spectroscopy technique that we use to measure the spin dependent energy-momentum dispersion bands of the system. With the addition of a one dimensional optical lattice, this work opens the ground for measurements of the Hofstadter butterfly spectrum. 
-
-
-Previous studies have shown that strong modulation in the Raman coupling strength for an effective spin $1/2$ system leads to tunable spin-orbit coupling strength. In addition to this, the use of two Raman coupling frequencies in a spin one system which is equivalent to a single frequency amplitude modulated coupling leads to new magnetic phases (cite spin one papar). Here we extend the study of the effects of amplitude modulation of the Raman coupling strength/multiple frequency couplings. We will show that for a spin one system, we can independently  tune the spin orbit-coupling gap and strength, and we can additionally engineer a cyclic coupling between the three $m_F$ magnetic sub-levels. 
 
 
 
-Fixes:
-\begin{itemize}
-	\item Write frequencies as $\omega_L$ and $\omega_L +\Delta\omega \pm\delta\omega$. Is there too many $\delta$ symbols, confusing?
-	\item Call $J_0$ the zeroth order Bessel functions of the first kind.
-	\item don't say modulation or multiple frequencies, just say we amplitude modulate by using 
-	\item no effective model, say the floquet Hamiltonian takes de form
-	\item mention 2 paths
-\end{itemize}
+Start with corny paragraph, about soc and how cold atoms are awesome.
+Describe SOC at high field and at four photon resonance. Describe Fourier spectroscopy. Describe modulated Raman. 
+ 
+
+\subsection{Fourier Spectroscopy}		
 
 
-effective Hamiltonian that captures the essential characteristics
-of the modulated system. This strategy exploits the
-fact that modulation schemes can be tailored in such a way
-that effective Hamiltonians reproduce the Hamiltonians
-of interesting static systems.
+Think transfer functions and spectroscopy. Spectroscopy is a vertical cut, it looks at response of the system when driven with frequencies within the Fourier limited bandwith of the pulse. 
 
-Corrections of the effective Hamiltonian are of the order $1/\deltaº\omega$.
+
+In order to explicitly measure the modified energy-momentum dispersion relation, we will use a Fourier based spectroscopy technique, which relies on the time evolution of an atomic state after a dressing field is suddenly turned on, and the initially bare states become superpositions of dressed states undergoing Rabi oscillations in time  with spectral components related to the relative energies of the dressed states. 
+
+%as well as for the future measurement of the Hofstadter Butterfly spectrum%
+
+
+For the case of a spin-orbit coupled atomic system, the dressed state energies are explicitly dependent on both the particle's spin and momentum. Therefore, in order to fully characterize the energy-momentum dispersion we must prepare an atomic state at a given spin and momentum $\ket{k_i,m_{f_i}}$, pulse on the Raman field, and measure the time evolution.  
+
+In practice it may not be as straightforward to reliably prepare an arbitrary momentum state. The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a suitable moving reference frame. This can be explicitly seen in the Hamiltonian \ref{Eq:SOCone} where the detuning term $\delta/Er$  and the momentum term $4 k/k_R$ have the same effect in the relative energies. There is an additional Doppler shift associated with the transformation between reference frames, which gets canceled when we look at the energy differences. Therefore, for the purpose of our experiments, momentum and detuning are equivalent up to a numerical pre factor. 
+
+The method described above only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
+
+Here an image of dispersion, time evolution, FFT, spectrum of energy differences and reconstructed spectrum.
+
+In order to maximize our signal to noise ratio (SNR) and minimize the required number of data points we use some fancy algorithm that I'm still not sure which one will work best. We also choose the spacing and the total number of pulses for each spectra so that the bandwith and resolution of the Fourier transform allow us to resolve the frequencies of interest. 
+
+%The frequencies were extracted using the Lasso algorithm,which given $n$ data points $y$ and $p$ basis functions $x$, seeks to minimize the quantity
+
+%\begin{align}
+%\sum_{i=1}^{n}(y_i-\sum_{j}x_{ij}\beta_j)^2+\lambda\sum_{j=1}^{p}\lvert\beta\rvert
+%\end{align}
+
+%which is equivalent to a least square fit with a constraint on the L1 norm of the fit coefficients.Here we used the real part of the Fourier basis as our basis functions and the constraint constraint helped to reduce the spectral noise and allowed us to identify the main frequencies of the problem more easily.
+%(Tibshirani, 1995)
+
+\subsection{Modulated Raman Coupling}
 
 Order of ideas here:
-First spectroscopy. Describe for a single frequency spin one SOC Hamiltonian. Describe the periodic drive case, brief intro to Floquet theory.  
- 
+Explain how we get SOC, how we modulate it.
+Explain pulsing procedure.
+Explain effective mass measurement. 
+
+
+
+
+%A spin-orbit coupled spin one system in the presence of a bias magnetic field is described by the Hamiltonian. (This line is awful but I will keep it for now)
+
+We consider a spin one system in a uniform magnetic field  $B\mathbf{e}_z$ that Zeeman splits the energy levels by $\omega_Z/2\pi=g_f\mu_BB = 12 MHz$. A quadratic Zeeman shift $\epsilon$ breaks the $m_F=\pm1\leftrightarrow m_F=0$ degeneracy. The system can be fully described by the Hamiltonian
+
+Here I need to introduce delta and frequency differences. 
+
+\begin{align}
+	\begin{split}
+		\hat{H} = &\frac{\hbar^2\hat{k}^2}{2m} + \alpha_0\hat{k}\hat{F}_z +4E_L\mathbb{I} + \frac{\Omega_R}{2}\hat{F}_x\\
+		& +(\epsilon+4E_L)(\hat{F}_z^2-\mathbb{I}) +\Delta_0\hat{F}_z, 
+		\label{Eq:SOCone}
+	\end{split}]
+\end{align}	
+
+
+where we have introduced the natural units of our system: the single photon recoil momentum $k_L=\frac{2\pi}{\lambda_R}\sin(\theta/2)$ and its associated recoil energy $E_L=\frac{\hbar^2k_L^2}{2m}$, determined by the wavelength and geometry of the Raman field. We have additionally introduced the spin-orbit coupling strength $\alpha_0=\frac{\hbar^2k_L}{m}$ and the Raman coupling strength $\Omega_R$ which is proportional to the field intensity. 
+
+Previous studies have shown that driven systems such as cold atoms in time dependent optical fields[karina, optical lattices, germany group] exhibit effective coupling terms in the Hamiltonian that arise from averaging the dynamics of the system. Here we will show that we can get tunable spin-orbit coupling using a multiple frequency Raman field which is equivalent to periodically modulating the Raman coupling strength.
+
+
+With the addition of these multiple frequency couplings, the Hamiltonian in Eq.\ref{Eq:SOCone} remains unchanged, except for the coupling strength that takes the form $	\Omega_R(t)=\Omega_0 + \Omega\cos(\delta\omega t)$. Introduce a little bit of Floquet theory?
+
+If the driving frequency is chosen so that  $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$ the effective Floquet Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients and quadratic Zeeman shift, and an additional term that explicitly couples the $m_f=-1$ and $m_f=+1$ states:
+
+
+\begin{align}
+	\begin{split}
+		\hat{H} = &\frac{\hbar^2\hat{k}^2}{2m} + \alpha\hat{k}\hat{F}_z +4E_L\mathbb{I} + \frac{\Omega_0}{2}\hat{F}_x \\
+		&+ \frac{\tilde{\Omega}}{2}\hat{F}_{xz} +(\tilde{\epsilon}+4E_L)(\hat{F}_z^2-\mathbb{I}) +\tilde{\Delta}\hat{F}_z, 
+		\label{Eq:SOCeff}
+	\end{split}
+\end{align}	
+%
+with $\alpha= J_0(\Omega/2\delta\omega)\alpha_0$, $\tilde{\Omega}=1/4(\epsilon+4E_L) (J_0(\Omega/\delta\omega)-1)$, $\Delta=J_0(\Omega/2\delta\omega)\Delta_0$, and $\tilde{\epsilon}= 1/4(4E_L-\epsilon) - 
+1/4(4E_L + 3 \epsilon) J_0( \Omega/\delta\omega)$
+
+
+There are two limiting cases of this effective Hamiltonian \ref{Eq:SOCeff} which will be of interest: (1) for large quadratic Zeeman shift the system can be described as an effective spin $1/2$ (cite Lindsay) system where the spin orbit coupling strength and the Raman coupling can be independently tuned and (2) for small quadratic Zeeman shift we can tune the $m_f=+1\leftrightarrow m_f=-1$ and $m_f=0\leftrightarrow m_f=\pm 1$ coupling strength as well as the spin-orbit coupling strength and energy of the $m_f=0$ state relative to the other two states. In this work we will only focus on the high field regime, and measure the spin-orbit dispersion for three  different configurations: No modulation, pure modulation, and modulation plus dc offset. 
+
+% which with the addition of an optical lattice can lead to  measurements of Hofstadter butterfly spectrum(cite synthetic dimensions). In this work we will only focus in the first case. 
+
+
+In the high field regime, when $\epsilon > 4E_R$, the $m_f=-1\leftrightarrow m_f=0$ and $m_f=0 \leftrightarrow m_f=+1$ transition cannot be resonantly addressed with the same frequency. By adiabatically eliminating the $m_f=0$ state we can describe the system in terms of an effective spin $1/2$  with an effective Hamiltonian
+
+\begin{align}
+	\begin{split}
+		\hat{H}_{eff} = & \frac{\hbar^2}{2m}(\hat{k}+2\kr\hat{\sigma}_z)^2 + \frac{\hbar\Omega'}{2}\hat{\sigma}_x  +\Delta\hat{\sigma}_z  
+		\label{Eq:SOChalf}
+	\end{split}
+\end{align}	
+
+where we have defined an effective coupling between the $m_f=-1$ and $m_f=+1$ states $\Omega'=\tilde{\Omega}+\hbar\Omega_0^2/2(\tilde{\epsilon})$. 
+
+
+Fig1b shows the hight field dispersion relation, both for the modulated and unmodulated cases (here goes an image of bands). The minima, originally locted at $\pm2 k_L$, are shifted and the size of the spin-orbit gap is changed for different choices of $\Omega_0$, $\Omega$, and $\delta\omega$.  
+
+
+
+
+
+
+
+
