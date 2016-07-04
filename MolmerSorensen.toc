@@ -1,13 +1,12 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {subsection}{\numberline {1.1}Fourier Spectroscopy}{2}
-\contentsline {subsection}{\numberline {1.2}Modulated Raman Coupling}{3}
+\contentsline {subsection}{\numberline {1.1}Fourier spectroscopy of spin-orbit coupled atoms}{2}
+\contentsline {subsection}{\numberline {1.2}Spectroscopy of a driven system}{3}
 \contentsline {section}{\numberline {2}Experiment}{4}
 \contentsline {subsection}{\numberline {2.1}Spectroscopy experimental sequence}{4}
 \contentsline {subsection}{\numberline {2.2}Effective mass measurement}{5}
 \contentsline {subsection}{\numberline {2.3}Magnetic field stabilization}{5}
-\contentsline {section}{\numberline {3}Results}{6}
-\contentsline {subsection}{\numberline {3.1}Dispersion relations}{6}
-\contentsline {subsection}{\numberline {3.2}Coupling strength and detuning calibrations}{6}
-\contentsline {subsection}{\numberline {3.3}Dark states at $q=0$}{6}
+\contentsline {section}{\numberline {3}Results}{5}
 \contentsline {section}{\numberline {4}Discussion}{6}
 \contentsline {section}{\numberline {5}Conclusion}{7}
+\contentsline {section}{\numberline {6}Appendix A}{7}
+\contentsline {subsection}{\numberline {6.1}Effective SOC Hamiltonian}{7}

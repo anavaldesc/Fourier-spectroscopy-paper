@@ -6,13 +6,10 @@
 
 
 We start our experiments with a Rb$^{87}$ Bose-Einstein condensate (BEC) with $N\approx 4\times 10^4$ (measure) atoms in the $\ket{F=1,m_F=0}$ state, confined in a $1064\nm$ crossed optical dipole trap, with trapping frequencies $(\omega_x,\omega_y,\omega_z)=2\pi(42(3),34(2),133(3))\ \Hz$. We break the degeneracy between the $m_F$ magnetic sub-levels by applying a $17.0556$ G bias field along the z axis, which produces a Zeeman splitting of $12 \ \MHz$ and a quadratic Zeeman shift that lowers the energy of the $\ket{F=1,m_F=0}$ state  by $20.9851$ kHz. 
-We apply a pair of microwave pulses to monitor and stabilize the bias field and. We generate spin-orbit coupling between the magnetic sub levels with a pair of intersecting, cross-polarized Raman beams, with wavelength $\lambda=790.33 nm$ propagating along $\mathbf{e}_x+\mathbf{y}$ and $\mathbf{e}_x-\mathbf{e}_y$ as shown in Fig 1a. We offset the frequency of the beams using two acusto optic modulators (AOMs), one of them driven a superposition of up to three different frequencies. We set the Raman detuning conditions by keeping the magnetic field constant and changing the value of the frequency $\omega_A$.  On resonance, the laser frequencies satisfy the condition $\omega_A-\omega_B=\omega_A-\frac{\omega_{B+}+\omega_{B-}}{2}=\omega_Z$. 
+We apply a pair of microwave pulses to monitor and stabilize the bias field and. We generate spin-orbit coupling between the magnetic sub levels with a pair of intersecting, cross-polarized Raman beams, with wavelength $\lambda=790.33 nm$ propagating along $\mathbf{e}_x+\mathbf{y}$ and $\mathbf{e}_x-\mathbf{e}_y$ as shown in Fig 1a. We offset the frequency of the beams using two acusto optic modulators (AOMs), one of them driven by a superposition of up to three different frequencies. On resonance, the laser frequencies satisfy the condition $\omega_A-\omega_B=\omega_A-\frac{\omega_{B+}+\omega_{B-}}{2}=\omega_Z$, and we change the Raman detuning conditions by keeping the magnetic field constant and changing the value of the frequency $\omega_A$.
 
 For a given detuning value, we pulse our Raman beams for time intervals between $5\us$ and up to $900\us$. We then release the atoms from the optical dipole trap and let them fall for a $21$ ms time of flight (TOF) time before we image them using resonant absorption imaging. Our images 
 reveal the atoms spin and momentum distribution, from which we can extract the full dynamics of the system. 
-
-
-In order to account for missing data points we use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time as required by regular FFT algorithms. (maybe this goes on the analysis?)
 
 
 \subsection{Effective mass measurement}
@@ -21,10 +18,24 @@ We measure the atom's ground state effective mass by inducing dipole oscillation
 
  To measure the trapping frequencies, we prepare our system in $\ket{F=1,m_F=0}$ and adiabatically turn on the Raman in $\approx10$ ms while also ramping the detuning to a non-zero value, around $0.5\Er$. Our system does not have the capability to dynamically change the laser frequency while maintaining phase stability, so unlike the pulsing experiments, we ramped the magnetic field to change the resonance conditions. This magnetic field induced detuning shifts the minima in the ground state energy away from zero quasi-momentum. We then suddenly snap the field back to resonance which changes the equilibrium conditions of the system and excites the dipole mode of our optical dipole trap. For the bare state frequency, we repeat the same procedure but we completely snap off the Raman after the initial ramp. 
 
-For this set of measurements we modified our trapping frequencies to $(\omega_x, \omega_y, \omega_z)=2\pi(35.9, 32.5, xx) \Hz$  so that they were nominally symmetric along the $x-y$ plane. Our Raman beams are at a $45^{\circ}$ (can probably measure with more accuracy) angle with respect to the optical dipole trap beams, so a rotation $\mathbf{e}_x+\mathbf{e}_y$   $x\rightarrow\frac{x+y}{\sqrt{2}}$, $y\rightarrow\frac{x-y}{\sqrt{2}}$ leads to a trapping frequency along the Raman recoil momentum direction
-$\omega=\sqrt{\omega_x^2+\omega_y^2}$ for axially symmetric traps. 
+For this set of measurements we modified our trapping frequencies to $(\omega_x, \omega_y, \omega_z)=2\pi(35.9, 32.5, xx) \Hz$  so that they were nominally symmetric along the $x-y$ plane. 
 
 \subsection{Magnetic field stabilization}
 We stabilized the magnetic field and measured fluctuations about the desired set point by applying a pair of microwave pulses with frequencies close to resonance from the $5^2{\rm S}_{1/2}$ $F=2$ state, and imaging the in-situ the population transfered by each pulse. 
 
-We first prepare our BEC in the $\ket{F=1, m_f=0}$ state and apply a $17.0556$ G bias filed along the z axis. We then apply a pair of $250\mu s$ microwave pulses, each one blue (red) detuned from the $\ket{F=1,m_F=0}\leftrightarrow\ket{F=2,m_F=1} $ transition by $+(-)2$ kHz. We can separately and non-destructively image the atoms transfered into $F=2$ and extract the transferred population imbalance, which gives us a $4$ kHz wide error signal. We use the error signal both to feed forward our bias coils and actively stabilize the bias field, and also to post select that is $0.5$ mG of the desired magnetic field set-point. We additionally trigger our sequence to the line and both the microwave and Raman pulses are timed at integer periods of $60\Hz$ and performed at the zero-derivative point of the $60\Hz$ curve in order to minimize additional magnetic field fluctuations
+We first prepare our BEC in the $\ket{F=1, m_f=0}$ state and apply a $17.0556$ G bias filed along the z axis. We then apply a pair of $250\mu s$ microwave pulses, (mention about 10 percent) each one blue (red) detuned from the $\ket{F=1,m_F=0}\leftrightarrow\ket{F=2,m_F=1} $  (put exact frequency) transition by $+(-)2$ kHz. We can separately and non-destructively image the atoms transfered into $F=2$ and extract the transferred population imbalance, which gives us a $4$ kHz wide error signal. We use the error signal both to feed forward our bias coils and actively stabilize the bias field, and also to post select that is $0.5$ mG of the desired magnetic field set-point. We additionally trigger our sequence to the line and both the microwave and Raman pulses are timed at integer periods of $60\Hz$ and performed at the zero-derivative point of the $60\Hz$ curve in order to minimize additional magnetic field fluctuations
+
+%Just before transferring the BEC into |mF = −1, kx = 2kRi, two 6.8 GHz microwave pulses
+%spaced in time by 50 ms each out-coupled ≈10% of the atoms to the f = 2 hyperfine manifold.
+%These atoms were separately imaged (without repumping on the f = 1–2 transition) leaving
+%the atoms in f = 1 undisturbed. These f = 2 atoms served two purposes: (i) by setting the
+%microwave frequency 2 kHz above (first pulse) and 2 kHz below (second pulse) resonance, we
+%tracked shifts in the bias field that would change our four-photon Raman resonance condition.
+%Upon analysing the data, we rejected points where the atom number difference between these
+%two images was greater than two standard deviations from being equal; (ii) we determined
+%the BEC’s position immediately before each zitterbewegung experiment began, allowing us
+%to cancel shot-to-shot variations in the trap position. The beginning of the three transfer
+%pulses—two microwave outcoupling pulses, and the final four-photon Raman pulse—were each
+%separated in time by 50 ms. As three periods of a 60 Hz cycle, this separation was chosen to
+%reduce magnetic field background fluctuations at the power line frequency, and to facilitate
+%rethermalization between pulses.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2016 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUL 2016 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,44 +227,68 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `MolmerSorensen.toc'.
 
 
-(./Introduction.tex [2] [3]) (./Methods.tex [4]
-Underfull \hbox (badness 2486) in paragraph at lines 26--28
+(./Introduction.tex
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [2] [3]) (./Methods.tex [4]
+Underfull \hbox (badness 2486) in paragraph at lines 21--22
 []\OT1/cmr/m/n/10 For this set of measurements we modified our trapping frequen
 cies to
  []
 
-) [5] (./Results.tex) (./Discussion.tex) (./Conclusion.tex) [6] (./Notes.tex)
-[7] (./MolmerSorensen.aux) ) 
+) (./Results.tex [5]) (./Discussion.tex) (./Conclusion.tex)
+(./SuplementaryInfo.tex [6]
+Overfull \hbox (58.78412pt too wide) in paragraph at lines 11--11
+[] 
+ []
+
+
+Overfull \hbox (10.92012pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 48--50
+[]\OT1/cmr/m/n/10 (check units here) with $\OML/cmm/m/it/10 ^^V\OT1/cmr/bx/n/10
+ B[] \OT1/cmr/m/n/10 = ([] + 
+ [](\OML/cmm/m/it/10 ^^N!t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n
+/10 ))([](2[]\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OT1/cmr/bx/n/10 e[] \OMS/cmsy/
+m/n/10 ^^@
+ []
+
+[7]) (./Notes.tex [8]) [9] (./MolmerSorensen.aux) ) 
 Here is how much of TeX's memory you used:
- 2803 strings out of 493089
- 33473 string characters out of 6134842
- 106654 words of memory out of 5000000
- 6239 multiletter control sequences out of 15000+600000
+ 2807 strings out of 493089
+ 33540 string characters out of 6134842
+ 109662 words of memory out of 5000000
+ 6240 multiletter control sequences out of 15000+600000
  7825 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,26p,924b,155s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm7.pfb>
-Output written on MolmerSorensen.pdf (7 pages, 202597 bytes).
+ 37i,18n,26p,984b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm7.pfb>
+Output written on MolmerSorensen.pdf (9 pages, 225544 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
