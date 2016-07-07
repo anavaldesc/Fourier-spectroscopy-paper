@@ -9,6 +9,20 @@ To calculate the effective mass we fitted sinusoids to the sloshing motion of ou
 $\omega=\sqrt{\omega_x^2+\omega_y^2}$ for an axially symmetric trap.  
 Figure $nn+1$ shows the dipole oscillations of the Raman dressed BECs in the optical dipole trap for the three different coupling regimes as well as the bare state motion. 
 
+
+\begin{figure*}
+	\begin{center}
+		\includegraphics{figures/meff.pdf}
+		\caption
+		{
+			{\bf a)} Top: Computed cross-sectional cuts of the total potential $V(y)$ (black), effective magnetic field ${\mathbfcal B}$ (blue) and atomic density $n(y)$ (yellow). Columns correspond to Raman coupling strengths $\hbar = 0.5 , 3.5, 5.5 \:E_L$ respectively, all with the detuning gradient . Bottom: GPE-computed 2D density distributions $n(x,y)$ using the same parameters.			
+			{\bf b)} Second-moment of the momentum distribution as a function of and  in our system. Regions with large moments represent large potential well separations that have a synthetic magnetic field localized between the BECs.
+			
+		}
+		\label{fig:Figure1}
+	\end{center}
+\end{figure*}
+
 We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time as required by regular FFT algorithms. In order to account for missing data points. Figure $nn+2$ shows the power spectral density (PSD) of the time evolution of each $m_f$ state. Each vertical cut is normalized to the highest peak of the three spin states. We then rescale the units $\hbar\Delta\rightarrow	 \hbar^2k_x/8m$, extract the highest peaks in the PSD and offset their frequency by $\hbar^2k_x^2/2m^{\star}$, finally obtaining the characteristic spin- and momentum- dependent dispersion of a spin orbit coupled system. For the case driven spin-orbit coupling (cases (ii) and (iii)), since the strength of the drive is comparable to the quadratic Zeeman shift,we observe higher frequency components in the dynamics which are in good agreement with Floquet theory.
 
 Our system has dark states at $\Delta=0$ which can be noted by the missing peaks in the PSD. Since there are eigenstates of the Raman dressed Hamiltonian that never get populated, the time evolution of the system does not have the frequency components related to the missing eigenstates. 

@@ -19,10 +19,7 @@ Describe SOC at high field and at four photon resonance. Describe Fourier spectr
 \subsection{Fourier spectroscopy of spin-orbit coupled atoms}		
 
 
-%Think transfer functions and spectroscopy. Spectroscopy is a vertical cut, it looks at response of the system when driven with frequencies within the Fourier limited bandwith of the pulse. 
-
-
-%We consider a spin one system in a uniform magnetic field  $B\mathbf{e}_z$ that Zeeman splits the energy levels by $\omega_Z/2\pi=g_f\mu_BB = 14 MHz$. A quadratic Zeeman shift $\epsilon$ breaks the $m_F=\pm1\leftrightarrow m_F=0$ degeneracy. A pair of intersecting Raman lasers with frequency relation $\omega_A-\omega_B=\omega_Z + \Delta$, where $\omega_Z$ is the linear Zeeman shift and $\Delta$ is the detuning from four photon resonance. 
+The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  
 
 
 \begin{align}
@@ -44,6 +41,19 @@ In order to explicitly measure the  energy-momentum dispersion relation, we will
 
 For the case of a spin-orbit coupled atomic system, the dressed state energies are explicitly dependent on both the particle's spin and momentum. Therefore, in order to fully characterize the energy-momentum dispersion we must prepare an atomic state at a given spin and momentum $\ket{k_i,m_{f_i}}$, pulse on the Raman field, and measure the time evolution.  
 
+\begin{figure*}[bt]
+	\begin{center}
+		\includegraphics{figures/fourier2.pdf}
+		\caption
+		{
+			{\bf a)} Top: Computed cross-sectional cuts of the total potential $V(y)$ (black), effective magnetic field ${\mathbfcal B}$ (blue) and atomic density $n(y)$ (yellow). Columns correspond to Raman coupling strengths $\hbar = 0.5 , 3.5, 5.5 \:E_L$ respectively, all with the detuning gradient . Bottom: GPE-computed 2D density distributions $n(x,y)$ using the same parameters.			
+			{\bf b)} Second-moment of the momentum distribution as a function of and  in our system. Regions with large moments represent large potential well separations that have a synthetic magnetic field localized between the BECs.
+			
+		}
+		\label{fig:Figure1}
+	\end{center}
+\end{figure*}
+
 In practice it is not as straightforward to reliably prepare an arbitrary momentum state in the lab. The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a suitable moving reference frame. This can be explicitly seen in the Hamiltonian \ref{Eq:SOCone} where the detuning term $\delta/Er$  and the momentum term $4 k/k_R$ have the same effect in the relative energies. There is an additional Doppler shift associated with the transformation between reference frames, which gets canceled when we look at the energy differences. Therefore, for the purpose of our experiments, momentum and detuning are equivalent up to a numerical factor. 
 
 The method described above only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
@@ -59,9 +69,9 @@ In order to maximize our signal to noise ratio (SNR) and minimize the required n
 
 Previous studies have shown that periodically driven systems such as cold atoms in driven optical fields[karina, optical lattices, germany group] exhibit effective coupling terms in the Hamiltonian that arise from averaging the fast dynamics of the system. Our Fourier based spectroscopy can also be used to study such systems as it can reveal additional information about the system's Floquet quasi-energy spectrum. We will focus on the case of a spin-1 spin-orbit coupled system that is coupled by a multiple frequency Raman field, as shown in Fig 3b. The interference of the multiple frequencies lead to a periodic amplitude modulation in the field and an effective Floquet Hamiltonian that has tunable spin-orbit coupling. 
 
-If we add two sidebands to one Raman beam, offset from the carrier frequency by $\pm \delta\omega$ and, for simplicity, we choose al the relative phases to be zero, then the Hamiltonian in Eq.\ref{Eq:SOCone} remains unchanged, except for the coupling strength that takes the form $	\Omega_R(t)=\Omega_0 + \Omega\cos(\delta\omega t)$. Our periodically driven system is well described by Floquet theory: $\ket{\Psi(t)}=\sum_{j}c_je^{i\epsilon_jt}\ket{u_j(t)}$ where $\ket{u(t)}$ are time-periodic Floquet states and the $\epsilon_j$ are the Floquet quasi-energies, wich are  $\epsilon_j,n=\epsilon_{j,m} + (n-m)2\pi/T$
+If we add two sidebands to one Raman beam, offset from the carrier frequency by $\pm \delta\omega$ and, for simplicity, we choose al the relative phases to be zero, then the Hamiltonian in Eq.\ref{Eq:SOCone} remains unchanged, except for the coupling strength that takes the form $	\Omega_R(t)=\Omega_0 + \Omega\cos(\delta\omega t)$. Our periodically driven system is well described by Floquet theory: the eigenstates are of the form $\ket{\Psi(t)}=\sum_{j}c_je^{i\epsilon_jt}\ket{u_j(t)}$ where $\ket{u(t)}$ are time-periodic states and the $\epsilon_j$ are the Floquet quasi-energies, wich are  $\epsilon_j,n=\epsilon_{j,m} + (n-m)2\pi/T$
 
-The time evolution of the system after one driving cycle cab described in terms of an effective time-independent Floquet Hamiltonian $e^{iT\hat{H}_{eff}}$. If $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$, this effective Floquet Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients, and an additional term that explicitly couples the $m_f=-1$ and $m_f=+1$ states:
+The time evolution of the system after one driving cycle can be described in terms of an effective time-independent Hamiltonian $e^{iT\hat{H}_{eff}}$. If $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$, this effective Floquet Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients, and an additional term that explicitly couples the $m_f=-1$ and $m_f=+1$ states:
 
 \begin{align}
 	\begin{split}
