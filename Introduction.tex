@@ -14,66 +14,117 @@ electronic condensed matter systems
 Start with corny paragraph, about soc and how cold atoms are awesome.
 Describe SOC at high field and at four photon resonance. Describe Fourier spectroscopy. Describe modulated Raman. 
 
+The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike.
 
 
-\subsection{Fourier spectroscopy of spin-orbit coupled atoms}		
 
-
-The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  
-
-
-\begin{align}
-\begin{split}
-\hat{H} = &\frac{\hbar^2\hat{k}^2}{2m} + \alpha_0\hat{k}\hat{F}_z +4E_L\mathbb{I} + \frac{\Omega_R}{2}\hat{F}_x\\
-& +(\epsilon+4E_L)(\hat{F}_z^2-\mathbb{I}) +\Delta_0\hat{F}_z, 
-\label{Eq:SOCone}
-\end{split}]
-\end{align}	
-
-
-where we have introduced the natural units of our system: the single photon recoil momentum $k_L=\frac{2\pi}{\lambda_R}\sin(\theta/2)$ and its associated recoil energy $E_L=\frac{\hbar^2k_L^2}{2m}$, determined by the wavelength and geometry of the Raman field. We have additionally introduced the spin-orbit coupling strength $\alpha_0=\frac{\hbar^2k_L}{m}$ and the Raman coupling strength $\Omega_R\propto E_A^{\star}E_B$ which is proportional to the field intensity. 
+The  properties  of  electronic  materials  are  deeply
+entwined with their band structure
+—
+or, more generally,
+their single-particle spectrum
+—
+which gives rise to con-
+ductors, semiconductors, conventional insulators, and now
+topological insulators
+[1]
+. Understanding and controlling
+band structure in new ways, therefore, allows access to new
+phenomena. Spin-orbit coupling (SOC) plays a fundamen-
+tal role in most topological materials, linking the spin and
+the momentum of quantum particles. The introduction of
+time-periodic perturbations to topologically trivial systems
+(quantum wells, solid-state materials, and ultracold atoms)
+can drive phase transitions to new
+“
+Floquet topological
+phases
+”
+[2,3]
+. For example, Floquet topological insulators
+arise from topologically trivial materials with spin-orbit
+coupling through time-periodic perturbations
+[2]
+.
 
 
 In order to explicitly measure the  energy-momentum dispersion relation, we will use a Fourier based spectroscopy technique, which relies on the time evolution of an atomic state after a dressing field is suddenly turned on, and the initially bare states become superpositions of dressed states undergoing Rabi oscillations in time  with spectral components related to the relative energies of the dressed states. 
 
-%as well as for the future measurement of the Hofstadter Butterfly spectrum%
 
+We generate spin-orbit coupling in a spin-one atom using a pair of 'Raman' laser beams that change the spin state while imparting momentum to a spin-one atom via two photon Raman transitions.  
 
-For the case of a spin-orbit coupled atomic system, the dressed state energies are explicitly dependent on both the particle's spin and momentum. Therefore, in order to fully characterize the energy-momentum dispersion we must prepare an atomic state at a given spin and momentum $\ket{k_i,m_{f_i}}$, pulse on the Raman field, and measure the time evolution.  
+A uniform magnetic field $B\mathbf{\hat{e}}_z$ generates a linear Zeeman splitting of the energy levels $\hbar\omega_Z=g_F\mu_BB$, where $\mu_B$ is the Bohr magneton and $g_F$ is the Land\'e $g$ factor, and introduces a quadratic Zemen shift $\epsilon$ that shifts the energy of the $\ket{m_F=0}$ state with respect to the $\ket{m_F=\pm1}$ states. We couple these states using a pair of intersecting, cross polarized Raman beams with a wavelength $\lambda_R=790.024\nm$. We offset the frequency of the lasers by $\delta\omega=\omega_Z+\Delta_0$, where $\Delta_0$ is an experimentally controllable detuning from four photon resonance between the $\ket{m_F=-1}$ and $\ket{m_F=+1}$ states. 
 
+The Raman field couples the state $\ket{m_F=0,\ q_x}$ to $\ket{m_F=-1,\ q_x+2k_L}$ and to $\ket{m_F=+1,\ q_x-2k_L}$, generating a spin change of $\delta m_F=\pm1$ and imparting a shift in momentum of $\pm 2k_L$, where $q_x$ denotes the quasimomentum. The geometry and wavelength of the Raman field determine the natural units of the system: the single photon recoil momentum $k_L=\frac{2\pi}{\lambda_R}\sin(\theta/2)$ and its associated recoil energy $E_L=\frac{\hbar^2k_L^2}{2m}$.
+
+\begin{figure*}[bt]
+	\begin{center}
+		\includegraphics{figures/fig1v0.pdf}
+		\caption
+		{
+			{\bf a)} SOC dispersion of a spin-one system with quadratic Zeeman shift of $9E_L$ and Raman coupling $\Omega_0=12E_L$, initially prepared at a momentum $k_x=2k_L$.
+			{\bf b)} Probability amplitude of measuring the atoms in the state $\ket{m_F=-1,\ q_x=q_x+2k_L}$ (red), $\ket{m_F=0,\ q_x=q_x}$ (black), and $\ket{m_F=+1,\ q_x=q_x-2k_L}$ (blue) as a function of Raman pulsing time.
+			{\bf c)} Fourier transform of the probability amplitude. The three peaks in the Fourier spectra correspond to the three relative energies in the SOC dispersion for the parameters described above.
+			
+		}
+		\label{fig:Figure1}
+	\end{center}
+\end{figure*}
+
+In a frame rotating at a frequency $\omega_Z$, and after a rotating wave approximation, the kinetic and atom-light contributions of the Hamiltonian along the recoil direction are
+\begin{align}
+\begin{split}
+\hat{H_x} = &\frac{\hbar^2\hat{q}_x^2}{2m} + \alpha_0\hat{q}_x\hat{F}_z +4E_L\mathbb{I} + \frac{\Omega_R}{2}\hat{F}_x\\
+& +(-\epsilon+4E_L)(\hat{F}_z^2-\mathbb{I}) +\Delta_0\hat{F}_z, 
+\label{Eq:SOCone}
+\end{split}]
+\end{align}	
+
+ where $\hat{F}_{x,y,z}$ are the spin-one matrices,  $\alpha_0=\frac{\hbar^2k_L}{m}$ is the spin-orbit coupling strength, $\Omega_R\propto E_A^{\star}E_B$ and the Raman coupling strength which is proportional to the field intensity. 
+ 
+Figure 1a shows the typical band structure as a function of quasimomentum that results after diagonalizing the Hamiltonian $\hat{H}_x$ for a negative quadratic Zeeman shift $|\epsilon|>4E_L$. The ground state band is pushed down with respect to the higher excited bands, and it can be well described by a harmonic potential as there are no crossings with the higher bands. 
+
+\subsection{Fourier spectroscopy of spin-orbit coupled atoms}		
+
+ We can directly measure the dispersion relation of a system of spin-one, spin-orbit coupled bosonic atoms by studying the Hamiltonian evolution of the system, and unlike previous measurements of a SOC dispersion, our technique does not require any additional hardware. 
+
+We start with bare atoms in the $\ket{m_F=0,\ k_x}$ state. When a Raman field is suddenly turned on, the initial state is projected into the Raman dressed state basis, and continues to evolve 
+$\ket{m_F=0, q_x}\rightarrow \sum_{i=1}^3c_{i}e^{i\omega_it} \ket{\psi_i}$, where $\omega_i=E_i/\hbar$ are the angular frequencies associated to the dressed state energies and $\ket{\psi_i}$, the dressed eigenstates,  are linear combinations of $\ket{m_F=0,\ q_x=k_x}$ and $\ket{m_F=\pm1,\ q_x=k_x\mp2k_L}$. We then turn off the Raman field and image the atoms, which projects the system back into the bare basis $\ket{m_F=0,\ q_x=k_x}$, $\ket{m_F=\pm1,\ q_x=k_x\mp2k_L}$. The probability amplitude of measuring atoms in an $m_F$ state after evolving for a time $t$ oscillates at frequencies given by the difference in the dressed state energies $P_{m_F}(t)=\sum\limits_{i\neq j} 2c_{ij}\cos((\omega_i-\omega_j)t)$.
+
+The Fourier spectroscopy technique relies in directly measuring the probability amplitude as a function of evolution time and extracting the relative energies of the system using a Fourier transform, as shown in figure \ref{fig:Figure2}.
+
+ 
 \begin{figure*}[bt]
 	\begin{center}
 		\includegraphics{figures/fourier2.pdf}
 		\caption
 		{
-			{\bf a)} Top: Computed cross-sectional cuts of the total potential $V(y)$ (black), effective magnetic field ${\mathbfcal B}$ (blue) and atomic density $n(y)$ (yellow). Columns correspond to Raman coupling strengths $\hbar = 0.5 , 3.5, 5.5 \:E_L$ respectively, all with the detuning gradient . Bottom: GPE-computed 2D density distributions $n(x,y)$ using the same parameters.			
-			{\bf b)} Second-moment of the momentum distribution as a function of and  in our system. Regions with large moments represent large potential well separations that have a synthetic magnetic field localized between the BECs.
+			{\bf a)} SOC dispersion of a spin-one system with quadratic Zeeman shift of $9E_L$ and Raman coupling $\Omega_0=12E_L$, initially prepared at a momentum $k_x=2k_L$.
+			{\bf b)} Probability amplitude of measuring the atoms in the state $\ket{m_F=-1,\ q_x=q_x+2k_L}$ (red), $\ket{m_F=0,\ q_x=q_x}$ (black), and $\ket{m_F=+1,\ q_x=q_x-2k_L}$ (blue) as a function of Raman pulsing time.
+			{\bf c)} Fourier transform of the probability amplitude. The three peaks in the Fourier spectra correspond to the three relative energies in the SOC dispersion for the parameters described above.
 			
 		}
 		\label{fig:Figure2}
 	\end{center}
 \end{figure*}
 
-In practice it is not as straightforward to reliably prepare an arbitrary momentum state in the lab. The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a suitable moving reference frame. This can be explicitly seen in the Hamiltonian \ref{Eq:SOCone} where the detuning term $\delta/Er$  and the momentum term $4 k/k_R$ have the same effect in the relative energies. There is an additional Doppler shift associated with the transformation between reference frames, which gets canceled when we look at the energy differences. Therefore, for the purpose of our experiments, momentum and detuning are equivalent up to a numerical factor. 
+The method described above so far only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
 
-The method described above only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
+We can map the full spin and momentum dependent band structure of the spin-orbit coupled system by repeating this procedure for different initial momentum states, however, it may not be as straightforward to reliably prepare an arbitrary momentum state in the lab. The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a moving reference frame. This can be explicitly seen in the Hamiltonian \ref{Eq:SOCone} by looking at the detuning term $\Delta_0\hat{F}_z$ and the momentum term $\alpha_0\hat{q}_x\hat{F}_z$, which have the same effect in the relative energies. There is an additional Doppler shift associated with the transformation between reference frames, which gets canceled when we look at the energy differences. Therefore, for the purpose of our experiments, momentum and detuning are equivalent up to a numerical factor: $\Delta_0/E_R=4q_x/k_R$, and we can measure by preparing a zero momentum state and measuring the probability amplitude for different values of Raman detuning $\Delta_0$. 
 
-Here an image of dispersion, time evolution, FFT, spectrum of energy differences and reconstructed spectrum.
-
-In order to maximize our signal to noise ratio (SNR) and minimize the required number of data points we use some fancy algorithm that I'm still not sure which one will work best. We also choose the spacing and the total number of pulses for each spectra so that the bandwith and resolution of the Fourier transform allow us to resolve the frequencies of interest. 
-
-
+%In order to maximize our signal to noise ratio (SNR) and minimize the required number of data points we use some fancy algorithm that I'm still not sure which one will work best. We also choose the spacing and the total number of pulses for each spectra so that the bandwith and resolution of the Fourier transform allow us to resolve the frequencies of interest. 
 
 \subsection{Spectroscopy of a driven system}
 
+We can use the same principles described in the previous section to study more complex time dependent systems. A particularly interesting case is that of periodically driven systems [cita aqui], which can be described by effective coupling terms in the Hamiltonian that arise from averaging the fast dynamics of the system. The Fourier spectroscopy technique can be applied to such systems to measure the Floquet quasi-energy spectrum and also study the couplings within different Floquet manifolds. 
 
-Previous studies have shown that periodically driven systems such as cold atoms in driven optical fields[karina, optical lattices, germany group] exhibit effective coupling terms in the Hamiltonian that arise from averaging the fast dynamics of the system. Our Fourier based spectroscopy can also be used to study such systems as it can reveal additional information about the system's Floquet quasi-energy spectrum. We will focus on the case of a spin-1 spin-orbit coupled system that is coupled by a multiple frequency Raman field, as shown in Fig 3b. The interference of the multiple frequencies lead to a periodic amplitude modulation in the field and an effective Floquet Hamiltonian that has tunable spin-orbit coupling. 
+We will focus on the case of a spin-1 spin-orbit coupled system that is coupled by a multiple frequency Raman field, as shown in Fig 3b. The interference of the multiple frequencies leads to a periodic amplitude modulation in the field and an effective Floquet Hamiltonian that has tunable spin-orbit coupling. 
 
-If we add two sidebands to one Raman beam, offset from the carrier frequency by $\pm \delta\omega$ and, for simplicity, we choose al the relative phases to be zero, then the Hamiltonian in Eq.\ref{Eq:SOCone} remains unchanged, except for the coupling strength that takes the form $	\Omega_R(t)=\Omega_0 + \Omega\cos(\delta\omega t)$. Our periodically driven system is well described by Floquet theory: the eigenstates are of the form $\ket{\Psi(t)}=\sum_{j}c_je^{i\epsilon_jt}\ket{u_j(t)}$ where $\ket{u(t)}$ are time-periodic states and the $\epsilon_j$ are the Floquet quasi-energies, wich are  $\epsilon_j,n=\epsilon_{j,m} + (n-m)2\pi/T$
+We add two sidebands to one Raman beam at angular frequencies $\omega=\omega_L+\omega_Z+\Delta_0 \pm \delta\omega$.  The Hamiltonian in Eq.\ref{Eq:SOCone} remains unchanged, except for the coupling strength that takes the form $	\Omega_R(t)=\Omega_0 + \Omega\cos(\delta\omega t)$. Our periodically driven system is well described by Floquet theory: the eigenstates are of the form $\ket{\Psi(t)}=\sum_{j}c_je^{i\epsilon_jt}\ket{u_j(t)}$ where $\ket{u(t)}$ are time-periodic states and the $\epsilon_j$ are the Floquet quasi-energies, wich are  $\epsilon_j,n=\epsilon_{j,m} + (n-m)2\pi/T$
 
 \begin{figure*}
 	\begin{center}
-		\includegraphics{figures/fig1v5.pdf}
+		\includegraphics{figures/fig3v1.pdf}
 		\caption 
 		{
 			Time evolution of the BEC for Raman pulsing times between 5 and 10 $\mu s$, for different spin orbit coupling regimes:
@@ -82,7 +133,7 @@ If we add two sidebands to one Raman beam, offset from the carrier frequency by 
 			{\bf (iii)} $\Omega_0=1.5 E_L$, $\Omega=8.4 E_L$,  $\Delta=-4.7 E_L$
 			
 		}
-		\label{fig:Figure4}
+		\label{fig:Figure3}
 	\end{center}
 \end{figure*}
 
