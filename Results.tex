@@ -5,6 +5,22 @@ We measured the spin-orbit dispersion using our Fourier based technique  for thr
 
 We calibrated the Raman coupling terms $\Omega$ and $\Omega_0$ and the detuning from Raman resonance $\Delta$ by fitting the three-level Rabi oscillations of the $m_F=0$ and $m_f=\pm 1$ states to the time evolution given by the Hamiltonian in Eq. \ref{Eq:SOCone}. Figure nn shows representative traces for the time evolution of our system for the three cases outlined above. It can be noted that due to the structure of the Floquet quasi-energy spectrum, the time evolution shows higher frequency components for cases (ii) and (iii). These calibrations along with the information gained from the images of atoms out-coupled  with microwaves guaranteed that we were indeed at the correct detuning from Raman resonance and that the Raman coupling strength remained nominally constant throughout our measurements. 
 
+\begin{figure*}
+	\begin{center}
+		\includegraphics{figures/tdse.pdf}
+		\caption 
+		{
+		Time evolution of the BEC for Raman pulsing times between 5 and 10 $\mu s$, for different spin orbit coupling regimes:
+		{\bf (i)} $\Omega_0=9.9 E_L$, $\Omega=04$,  $\Delta=5.8 E_L$, 
+		{\bf (ii)} $\Omega_0=0$, $\Omega=8.6 E_L$,  $\Delta=-0.7 E_L$, and
+		{\bf (iii)} $\Omega_0=1.5 E_L$, $\Omega=8.4 E_L$,  $\Delta=-4.7 E_L$
+			
+		}
+		\label{fig:Figure3}
+	\end{center}
+\end{figure*}
+
+
 To calculate the effective mass we fitted sinusoids to the sloshing motion of our atoms in the dipole trap and extracted the frequency of oscillation. Since our Raman beams are at a $45^{\circ}$ (can probably measure with more accuracy) angle with respect to the optical dipole trap beams, the rotation $\mathbf{e}_x+\mathbf{e}_y$   $x\rightarrow\frac{x+y}{\sqrt{2}}$, $y\rightarrow\frac{x-y}{\sqrt{2}}$ leads to a trapping frequency along the Raman recoil momentum direction
 $\omega=\sqrt{\omega_x^2+\omega_y^2}$ for an axially symmetric trap.  
 Figure $nn+1$ shows the dipole oscillations of the Raman dressed BECs in the optical dipole trap for the three different coupling regimes as well as the bare state motion. 
@@ -22,6 +38,7 @@ Figure $nn+1$ shows the dipole oscillations of the Raman dressed BECs in the opt
 		\label{fig:Figure1}
 	\end{center}
 \end{figure*}
+
 
 We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time as required by regular FFT algorithms. In order to account for missing data points. Figure $nn+2$ shows the power spectral density (PSD) of the time evolution of each $m_f$ state. Each vertical cut is normalized to the highest peak of the three spin states. We then rescale the units $\hbar\Delta\rightarrow	 \hbar^2k_x/8m$, extract the highest peaks in the PSD and offset their frequency by $\hbar^2k_x^2/2m^{\star}$, finally obtaining the characteristic spin- and momentum- dependent dispersion of a spin orbit coupled system. For the case driven spin-orbit coupling (cases (ii) and (iii)), since the strength of the drive is comparable to the quadratic Zeeman shift,we observe higher frequency components in the dynamics which are in good agreement with Floquet theory.
 

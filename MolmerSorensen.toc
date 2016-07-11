@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2}Effective mass measurement}{5}
 \contentsline {subsection}{\numberline {2.3}Magnetic field stabilization}{5}
 \contentsline {section}{\numberline {3}Results}{6}
-\contentsline {section}{\numberline {4}Discussion}{7}
+\contentsline {section}{\numberline {4}Discussion}{8}
 \contentsline {section}{\numberline {5}Conclusion}{8}
 \contentsline {section}{\numberline {6}Appendix A}{8}
 \contentsline {subsection}{\numberline {6.1}Effective SOC Hamiltonian}{8}
