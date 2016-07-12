@@ -2,7 +2,7 @@
 %Empezar con porque nos interesa soc (tal tez hacer enfasis en edge states, topological stuff, hofstadter). Describir el Hamiltoniano para un sistema de spin uno. Añadir la modulación  y explicar que modulación es equivalente a tres frequencias (citar spin one paper) espectralmente como en ciertos límites puedes tener acoplamiento cíclico. Por que quiero medir directamente las bandas? Mencionar que hay otras tecnicas como spin injection, pero que esta tecnica ofrece la ventaja de que no necesitas hardware adicional o "reservoir states" que solo ciertos elementos tienen. Motivar eso. De ahí voy a Fourier spectroscopy, funciona para un sistema conocido. Hamiltoniano modulato, comparar el gap de Molmer-Sorensen (acoplamiento entre -1 y +1) con la transición de dos fotones. Pensar en Mariposas de Hofstater, fin. 
 
 
-%Point to sell: modulations are cool and deep in the heart of atomic physics. Maybe talk about pulsed optical lattices? Modulated Raman stuff from the group with cool frequency ramps? Read Dalibards paper on modulated systems for inspiration, Read ians paper on detecting topological matter using cold atoms for more inspiration.
+Properties of materials deeply depend in their underlying band structure. Cold atoms offer engineering single particle dispersions that are analogues to condensed matter systems and new exotic materials, e.g. completely flat bands where interactions dominate the system, spin-orbit coupling. The ability to measure and control leads to new understanding and paves the way to access new phases of matter. 
 
 
 Spin–orbit (SO) coupling is an essential mechanism for most
@@ -10,45 +10,16 @@ spintronics devices and leads to many fundamental phenomena
 in condensed matter physics and atomic physics. For example,
 SO coupling gives rise to the quantum spin Hall effect in
 electronic condensed matter systems
-
-Start with corny paragraph, about soc and how cold atoms are awesome.
-Describe SOC at high field and at four photon resonance. Describe Fourier spectroscopy. Describe modulated Raman. 
-
-The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike.
-
-*Band structures, flat bands, interactions. 
-
-The  properties  of  electronic  materials  are  deeply
-entwined with their band structure
-—
-or, more generally,
-their single-particle spectrum
-—
-which gives rise to con-
-ductors, semiconductors, conventional insulators, and now
-topological insulators
-[1]
-. Understanding and controlling
-band structure in new ways, therefore, allows access to new
-phenomena. Spin-orbit coupling (SOC) plays a fundamen-
-tal role in most topological materials, linking the spin and
-the momentum of quantum particles. The introduction of
-time-periodic perturbations to topologically trivial systems
-(quantum wells, solid-state materials, and ultracold atoms)
-can drive phase transitions to new
-“
-Floquet topological
-phases
-”
-[2,3]
-. For example, Floquet topological insulators
-arise from topologically trivial materials with spin-orbit
-coupling through time-periodic perturbations
-[2]
-.
+quantum Hall effect, Floquet topological insulators, etc. 
 
 
-In order to explicitly measure the  energy-momentum dispersion relation, we will use a Fourier based spectroscopy technique, which relies on the time evolution of an atomic state after a dressing field is suddenly turned on, and the initially bare states become superpositions of dressed states undergoing Rabi oscillations in time  with spectral components related to the relative energies of the dressed states. 
+The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike. Here, we propose a new Fourier spectroscopy technique to measure the dispersion relation of a system of spin-one, spin-orbit coupled ultra-cold atoms, which unlike previously studied techniques, relies only in the Hamiltonian evolution of the system and does not require any additional hardware or hyperfine states. This techniques works because when an atomic bare eigenstate is projected into a superposition of dressed states when a field is suddenly turned on, and will continue to evolve and Rabi oscillate in time, with spectral components related to the relative energies of the dressed states. 
+
+
+
+
+
+
 
 
 We generate spin-orbit coupling in a spin-one atom using a pair of 'Raman' laser beams that change the spin state while imparting momentum to a spin-one atom via two photon Raman transitions.  
@@ -136,7 +107,7 @@ The time evolution of the system after one driving cycle can be described in ter
 \end{align}	
 %
 with $\alpha= J_0(\Omega/2\delta\omega)\alpha_0$, $\tilde{\Omega}=\frac{1}{4}(\epsilon+4E_L) (J_0(\Omega/\delta\omega)-1)$, $\Delta=J_0(\Omega/2\delta\omega)\Delta_0$, and $\tilde{\epsilon}= \frac{1}{4}(4E_L-\epsilon) - 
-\frac{1}{4}(4E_L + 3 \epsilon) J_0( \Omega/\delta\omega)$
+\frac{1}{4}(4E_L + 3 \epsilon) J_0( \Omega/\delta\omega)$, and $J_0$ the zeroth order Bessel function of the first kind.
 
 If the quadratic Zeeman shift and the amplitude modulation are large compared to the recoil energy $|\epsilon|, \delta\omega >4E_L$, the Hamiltonian described above can be approximated by an effective spin $1/2$, spin-orbit coupled system,with tunable spin-orbit coupling: the state $\ket{m_F=+1,\ q_x=k_x-2J_0(\Omega/2\delta\omega)k_R}$ is coupled to the $\ket{m_F=-1,\ q_x=k_x+2J_0(\Omega/2\delta\omega)k_R}$ with coupling strength  $\Omega'=\tilde{\Omega}+\hbar\Omega_0^2/2\tilde{\epsilon}$.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./iopart.cls
 Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
-(./iopart10.clo
-File: iopart10.clo 1997/01/13 v1.0 IOP Book file (size option)
+(./iopart12.clo
+File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
 )
 \c@jnl=\count79
 \c@section=\count80
@@ -216,123 +216,89 @@ e
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Introduction.tex
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/fig1_1v2.pdf, id=10, 325.215pt x 281.85298pt>
+<figures/fig1_1v2.pdf, id=9, 325.215pt x 281.85298pt>
 File: figures/fig1_1v2.pdf Graphic file (type pdf)
 
 <use figures/fig1_1v2.pdf>
-Package pdftex.def Info: figures/fig1_1v2.pdf used on input line 62.
+Package pdftex.def Info: figures/fig1_1v2.pdf used on input line 33.
 (pdftex.def)             Requested size: 325.2142pt x 281.8523pt.
  [2] [3 <./figures/fig1_1v2.pdf>] [4]
-<figures/fig3v1.pdf, id=105, 325.215pt x 144.54pt>
+<figures/fig3v1.pdf, id=102, 325.215pt x 144.54pt>
 File: figures/fig3v1.pdf Graphic file (type pdf)
  <use figures/fig3v1.pdf>
-Package pdftex.def Info: figures/fig3v1.pdf used on input line 115.
+Package pdftex.def Info: figures/fig3v1.pdf used on input line 86.
 (pdftex.def)             Requested size: 325.2142pt x 144.53963pt.
-)
-(./Methods.tex [5 <./figures/fig3v1.pdf>] [6]
-Underfull \hbox (badness 2486) in paragraph at lines 21--22
-[]\OT1/cmr/m/n/10 For this set of measurements we modified our trapping frequen
-cies to
- []
 
-) (./Results.tex <figures/tdse.pdf, id=181, 252.945pt x 234.8775pt>
+[5 <./figures/fig3v1.pdf>]) (./Methods.tex [6]) (./Results.tex [7]
+<figures/tdse.pdf, id=182, 252.945pt x 234.8775pt>
 File: figures/tdse.pdf Graphic file (type pdf)
-
-<use figures/tdse.pdf>
+ <use figures/tdse.pdf>
 Package pdftex.def Info: figures/tdse.pdf used on input line 8.
 (pdftex.def)             Requested size: 252.94438pt x 234.87692pt.
- [7] <figures/meff.pdf, id=186, 325.215pt x 162.6075pt>
+
+[8 <./figures/tdse.pdf>] <figures/meff.pdf, id=232, 325.215pt x 162.6075pt>
 File: figures/meff.pdf Graphic file (type pdf)
 
 <use figures/meff.pdf>
 Package pdftex.def Info: figures/meff.pdf used on input line 33.
 (pdftex.def)             Requested size: 325.2142pt x 162.6071pt.
- [8 <./figures/tdse.pdf>]) (./Discussion.tex) [9 <./figures/meff.pdf>] (./Concl
-usion.tex) (./SuplementaryInfo.tex
-Overfull \hbox (58.78412pt too wide) in paragraph at lines 11--11
+) (./Discussion.tex [9 <./figures/meff.pdf>])
+(./SuplementaryInfo.tex
+Overfull \hbox (49.65372pt too wide) in paragraph at lines 11--11
 [] 
  []
 
-
-Overfull \hbox (10.92012pt too wide) in paragraph at lines 24--24
-[] 
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 48--50
-[]\OT1/cmr/m/n/10 (check units here) with $\OML/cmm/m/it/10 ^^V\OT1/cmr/bx/n/10
- B[] \OT1/cmr/m/n/10 = ([] + 
- [](\OML/cmm/m/it/10 ^^N!t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n
-/10 ))([](2[]\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OT1/cmr/bx/n/10 e[] \OMS/cmsy/
-m/n/10 ^^@
- []
-
-[10] [11]) (./Notes.tex) [12] (./MolmerSorensen.aux)
+[10] [11]) [12] (./MolmerSorensen.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2857 strings out of 493089
- 34230 string characters out of 6134842
- 110728 words of memory out of 5000000
- 6276 multiletter control sequences out of 15000+600000
- 12218 words of font info for 47 fonts, out of 8000000 for 9000
+ 2861 strings out of 493089
+ 34291 string characters out of 6134842
+ 111749 words of memory out of 5000000
+ 6284 multiletter control sequences out of 15000+600000
+ 14327 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,26p,1509b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
-8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+ 37i,18n,26p,1509b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on MolmerSorensen.pdf (12 pages, 2024661 bytes).
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MolmerSorensen.pdf (12 pages, 2007401 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
