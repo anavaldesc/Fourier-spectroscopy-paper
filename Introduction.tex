@@ -16,7 +16,7 @@ Describe SOC at high field and at four photon resonance. Describe Fourier spectr
 
 The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike.
 
-
+*Band structures, flat bands, interactions. 
 
 The  properties  of  electronic  materials  are  deeply
 entwined with their band structure
@@ -59,15 +59,15 @@ The Raman field couples the state $\ket{m_F=0,\ q_x}$ to $\ket{m_F=-1,\ q_x+2k_L
 
 \begin{figure*}[bt]
 	\begin{center}
-		\includegraphics{figures/fig1v0.pdf}
+		\includegraphics{figures/fig1_1v2.pdf}
 		\caption
 		{
-			{\bf a)} SOC dispersion of a spin-one system with quadratic Zeeman shift of $9E_L$ and Raman coupling $\Omega_0=12E_L$, initially prepared at a momentum $k_x=2k_L$.
-			{\bf b)} Probability amplitude of measuring the atoms in the state $\ket{m_F=-1,\ q_x=q_x+2k_L}$ (red), $\ket{m_F=0,\ q_x=q_x}$ (black), and $\ket{m_F=+1,\ q_x=q_x-2k_L}$ (blue) as a function of Raman pulsing time.
-			{\bf c)} Fourier transform of the probability amplitude. The three peaks in the Fourier spectra correspond to the three relative energies in the SOC dispersion for the parameters described above.
+			{\bf c)} SOC dispersion of a spin-one system with quadratic Zeeman shift of $9E_L$ and Raman coupling $\Omega_0=12E_L$, initially prepared at a momentum $k_x=2k_L$.
+			{\bf d)} Probability amplitude of measuring the atoms in the state $\ket{m_F=-1,\ q_x=q_x+2k_L}$ (red), $\ket{m_F=0,\ q_x=q_x}$ (black), and $\ket{m_F=+1,\ q_x=q_x-2k_L}$ (blue) as a function of Raman pulsing time.
+			{\bf e)} Fourier transform of the probability amplitude. The three peaks in the Fourier spectra correspond to the three relative energies in the SOC dispersion for the parameters described above.
 			
 		}
-		\label{fig:Figure1}
+		\label{fig:Figure2}
 	\end{center}
 \end{figure*}
 
@@ -94,19 +94,7 @@ $\ket{m_F=0, q_x}\rightarrow \sum_{i=1}^3c_{i}e^{i\omega_it} \ket{\psi_i}$, wher
 The Fourier spectroscopy technique relies in directly measuring the probability amplitude as a function of evolution time and extracting the relative energies of the system using a Fourier transform, as shown in figure \ref{fig:Figure2}.
 
  
-\begin{figure*}[bt]
-	\begin{center}
-		\includegraphics{figures/fourier2.pdf}
-		\caption
-		{
-			{\bf a)} SOC dispersion of a spin-one system with quadratic Zeeman shift of $9E_L$ and Raman coupling $\Omega_0=12E_L$, initially prepared at a momentum $k_x=2k_L$.
-			{\bf b)} Probability amplitude of measuring the atoms in the state $\ket{m_F=-1,\ q_x=q_x+2k_L}$ (red), $\ket{m_F=0,\ q_x=q_x}$ (black), and $\ket{m_F=+1,\ q_x=q_x-2k_L}$ (blue) as a function of Raman pulsing time.
-			{\bf c)} Fourier transform of the probability amplitude. The three peaks in the Fourier spectra correspond to the three relative energies in the SOC dispersion for the parameters described above.
-			
-		}
-		\label{fig:Figure2}
-	\end{center}
-\end{figure*}
+
 
 The method described above so far only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
 
@@ -116,7 +104,7 @@ We can map the full spin and momentum dependent band structure of the spin-orbit
 
 \subsection{Spectroscopy of a driven system}
 
-We can use the same principles described in the previous section to study more complex time dependent systems. A particularly interesting case is that of periodically driven systems [cita aqui], which can be described by effective coupling terms in the Hamiltonian that arise from averaging the fast dynamics of the system. The Fourier spectroscopy technique can be applied to such systems to measure the Floquet quasi-energy spectrum and also study the couplings within different Floquet manifolds. 
+A time evolution based spectroscopy is ideal to study the energy spectrum of more complex time dependent systems. A particularly interesting case is that of periodically driven systems [cita aqui], which can be described by effective coupling terms in the Hamiltonian that arise from averaging the fast dynamics of the system. The Fourier spectroscopy technique can be applied to such systems to measure the Floquet quasi-energy spectrum and also study the couplings within different Floquet manifolds. 
 
 We will focus on the case of a spin-1 spin-orbit coupled system that is coupled by a multiple frequency Raman field, as shown in Fig 3b. The interference of the multiple frequencies leads to a periodic amplitude modulation in the field and an effective Floquet Hamiltonian that has tunable spin-orbit coupling. 
 
@@ -137,7 +125,7 @@ We add two sidebands to one Raman beam at angular frequencies $\omega=\omega_L+\
 	\end{center}
 \end{figure*}
 
-The time evolution of the system after one driving cycle can be described in terms of an effective time-independent Hamiltonian $e^{iT\hat{H}_{eff}}$. If $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$, this effective Floquet Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients, and an additional term that explicitly couples the $m_f=-1$ and $m_f=+1$ states:
+The time evolution of the system after one driving cycle can be described in terms of an effective time-independent Hamiltonian $e^{iT\hat{H}_{eff}}$. If $\delta\omega \gg \epsilon$ and $\delta\omega \gg 4E_L$, this effective Floquet Hamiltonian retains the form of \ref{Eq:SOCone} with renormalized coefficients, and an additional term that couples the $m_f=-1$ and $m_f=+1$ states:
 
 \begin{align}
 	\begin{split}
@@ -147,28 +135,24 @@ The time evolution of the system after one driving cycle can be described in ter
 	\end{split}
 \end{align}	
 %
-with $\alpha= J_0(\Omega/2\delta\omega)\alpha_0$, $\tilde{\Omega}=1/4(\epsilon+4E_L) (J_0(\Omega/\delta\omega)-1)$, $\Delta=J_0(\Omega/2\delta\omega)\Delta_0$, and $\tilde{\epsilon}= 1/4(4E_L-\epsilon) - 
-1/4(4E_L + 3 \epsilon) J_0( \Omega/\delta\omega)$
+with $\alpha= J_0(\Omega/2\delta\omega)\alpha_0$, $\tilde{\Omega}=\frac{1}{4}(\epsilon+4E_L) (J_0(\Omega/\delta\omega)-1)$, $\Delta=J_0(\Omega/2\delta\omega)\Delta_0$, and $\tilde{\epsilon}= \frac{1}{4}(4E_L-\epsilon) - 
+\frac{1}{4}(4E_L + 3 \epsilon) J_0( \Omega/\delta\omega)$
+
+If the quadratic Zeeman shift and the amplitude modulation are large compared to the recoil energy $|\epsilon|, \delta\omega >4E_L$, the Hamiltonian described above can be approximated by an effective spin $1/2$, spin-orbit coupled system,with tunable spin-orbit coupling: the state $\ket{m_F=+1,\ q_x=k_x-2J_0(\Omega/2\delta\omega)k_R}$ is coupled to the $\ket{m_F=-1,\ q_x=k_x+2J_0(\Omega/2\delta\omega)k_R}$ with coupling strength  $\Omega'=\tilde{\Omega}+\hbar\Omega_0^2/2\tilde{\epsilon}$.
+
+This model is good to describe the energies within one Floquet manifold, however, if the coupling strength is large compared to the quadratic Zeeman shift $\Omega_0,\ \Omega<\epsilon$, rotating wave type approximations break down, and the time evolution of the system becomes more complex. A signature of this is the appearance of higher frequency Fourier components in the probability amplitude, spaced by $2n\pi/T$ from the lowest 3 energy levels. 
+ 
+
+%\begin{align}
+%\begin{split}
+%\hat{H}_{eff} = & \frac{\hbar^2}{2m}(\hat{k}+2\kr\hat{\sigma}_z)^2 + %\frac{\hbar\Omega'}{2}\hat{\sigma}_x  +\Delta\hat{\sigma}_z  
+%\label{Eq:SOChalf}
+%\end{split}
+%\end{align}	
 
 
-There are two limiting cases of this effective Hamiltonian \ref{Eq:SOCeff} which will be of interest: (1) for large quadratic Zeeman shift the system can be described as an effective spin $1/2$ (cite Lindsay) system where the spin orbit coupling strength and the Raman coupling can be independently tuned and 
 
-
-
-%In the high field regime, when $\epsilon > 4E_R$, the $m_f=-1\leftrightarrow m_f=0$ and $m_f=0 \leftrightarrow m_f=+1$ transition cannot be resonantly addressed with the same frequency. By adiabatically eliminating the $m_f=0$ state we can describe the system in terms of an effective spin $1/2$  with an effective Hamiltonian
-
-\begin{align}
-	\begin{split}
-		\hat{H}_{eff} = & \frac{\hbar^2}{2m}(\hat{k}+2\kr\hat{\sigma}_z)^2 + \frac{\hbar\Omega'}{2}\hat{\sigma}_x  +\Delta\hat{\sigma}_z  
-		\label{Eq:SOChalf}
-	\end{split}
-\end{align}	
-
-where we have defined an effective coupling between the $m_f=-1$ and $m_f=+1$ states $\Omega'=\tilde{\Omega}+\hbar\Omega_0^2/2(\tilde{\epsilon})$. 
-
-
-Fig1b shows the high field dispersion relation, both for the modulated and unmodulated cases (here goes an image of bands). The minima, originally locted at $\pm2 k_L$, are shifted and the size of the spin-orbit gap is changed for different choices of $\Omega_0$, $\Omega$, and $\delta\omega$.  
-
+%Fig1b shows the high field dispersion relation, both for the modulated and unmodulated. The minima, originally locted at $\pm2 k_L$, are shifted and the size of the spin-orbit gap is changed for different choices of $\Omega_0$, $\Omega$, and $\delta\omega$.  
 
 
 
