@@ -1,8 +1,8 @@
 \section{Introduction}
-%Empezar con porque nos interesa soc (tal tez hacer enfasis en edge states, topological stuff, hofstadter). Describir el Hamiltoniano para un sistema de spin uno. Añadir la modulación  y explicar que modulación es equivalente a tres frequencias (citar spin one paper) espectralmente como en ciertos límites puedes tener acoplamiento cíclico. Por que quiero medir directamente las bandas? Mencionar que hay otras tecnicas como spin injection, pero que esta tecnica ofrece la ventaja de que no necesitas hardware adicional o "reservoir states" que solo ciertos elementos tienen. Motivar eso. De ahí voy a Fourier spectroscopy, funciona para un sistema conocido. Hamiltoniano modulato, comparar el gap de Molmer-Sorensen (acoplamiento entre -1 y +1) con la transición de dos fotones. Pensar en Mariposas de Hofstater, fin. 
 
+Properties of materials deeply depend in their underlying band structure. Cold atoms systems offer engineering single particle dispersions that are analogues to condensed matter systems and new exotic materials, e.g. completely flat bands where interactions dominate the system, spin-orbit coupling. The ability to measure and control leads to new understanding and paves the way to access new phases of matter. 
 
-Properties of materials deeply depend in their underlying band structure. Cold atoms offer engineering single particle dispersions that are analogues to condensed matter systems and new exotic materials, e.g. completely flat bands where interactions dominate the system, spin-orbit coupling. The ability to measure and control leads to new understanding and paves the way to access new phases of matter. 
+specially 
 
 
 Spin–orbit (SO) coupling is an essential mechanism for most
@@ -13,16 +13,9 @@ electronic condensed matter systems
 quantum Hall effect, Floquet topological insulators, etc. 
 
 
-The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike. Here, we propose a new Fourier spectroscopy technique to measure the dispersion relation of a system of spin-one, spin-orbit coupled ultra-cold atoms, which unlike previously studied techniques, relies only in the Hamiltonian evolution of the system and does not require any additional hardware or hyperfine states. This techniques works because when an atomic bare eigenstate is projected into a superposition of dressed states when a field is suddenly turned on, and will continue to evolve and Rabi oscillate in time, with spectral components related to the relative energies of the dressed states. 
+The relation between the dynamics of a system and its energy spectrum is rooted in the heart of quantum mechanics.  This relation has been exploited before to study properties of both condensed mattter (una cita aqui) and cold atoms systems (otra cita) alike. We propose a new Fourier spectroscopy technique to measure the dispersion relation of spin-orbit coupled ultra-cold atoms, which unlike previously studied techniques, relies only in the Hamiltonian evolution of the system and does not require any additional hardware or hyperfine states. Fourier spectroscopy relies on an atomic bare eigenstates being projected into a superposition of dressed states when a field is suddenly turned on, that evolves in time with spectral components related to the relative energies of the dressed states. Our technique can be particularly useful to study driven systems, where it is hard to predict how the different Floquet manifolds of the system couple. 
 
-
-
-
-
-
-
-
-We generate spin-orbit coupling in a spin-one atom using a pair of 'Raman' laser beams that change the spin state while imparting momentum to a spin-one atom via two photon Raman transitions.  
+We engineered a dispersion relation that has equal contributions of Rashba and Dresselhaus spin-orbit coupling in ultra cold $^{87}Rb$ atoms. We study the case of time independent SOC and periodically driven SOC, which can be described by an effective time independent model with tunable SOC strength. We generate the spin-orbit coupling using a pair of 'Raman' laser beams that change the spin state while imparting momentum to a spin-one atom via two photon Raman transitions.  
 
 A uniform magnetic field $B\mathbf{\hat{e}}_z$ generates a linear Zeeman splitting of the energy levels $\hbar\omega_Z=g_F\mu_BB$, where $\mu_B$ is the Bohr magneton and $g_F$ is the Land\'e $g$ factor, and introduces a quadratic Zemen shift $\epsilon$ that shifts the energy of the $\ket{m_F=0}$ state with respect to the $\ket{m_F=\pm1}$ states. We couple these states using a pair of intersecting, cross polarized Raman beams with a wavelength $\lambda_R=790.024\nm$. We offset the frequency of the lasers by $\delta\omega=\omega_Z+\Delta_0$, where $\Delta_0$ is an experimentally controllable detuning from four photon resonance between the $\ket{m_F=-1}$ and $\ket{m_F=+1}$ states. 
 
@@ -64,14 +57,9 @@ $\ket{m_F=0, q_x}\rightarrow \sum_{i=1}^3c_{i}e^{i\omega_it} \ket{\psi_i}$, wher
 
 The Fourier spectroscopy technique relies in directly measuring the probability amplitude as a function of evolution time and extracting the relative energies of the system using a Fourier transform, as shown in figure \ref{fig:Figure2}.
 
- 
-
-
 The method described above so far only allows us to measure relative energies and we must add a known energy reference if we want to recover the dispersion relation. We can do so by measuring the effective mass $m^{\star} = \hbar^2[\frac{d^2E(k_x)}{dk_x}]^{-1}$ of the nearly quadratic lowest branch of the dispersion, and then shifting the measured frequencies accordingly. 
 
 We can map the full spin and momentum dependent band structure of the spin-orbit coupled system by repeating this procedure for different initial momentum states, however, it may not be as straightforward to reliably prepare an arbitrary momentum state in the lab. The measurement however can be simplified by noticing that a non-moving atom cloud in the laboratory reference frame dressed by a field with non-zero detuning is equivalent to a moving cloud with a resonant field in a moving reference frame. This can be explicitly seen in the Hamiltonian \ref{Eq:SOCone} by looking at the detuning term $\Delta_0\hat{F}_z$ and the momentum term $\alpha_0\hat{q}_x\hat{F}_z$, which have the same effect in the relative energies. There is an additional Doppler shift associated with the transformation between reference frames, which gets canceled when we look at the energy differences. Therefore, for the purpose of our experiments, momentum and detuning are equivalent up to a numerical factor: $\Delta_0/E_R=4q_x/k_R$, and we can measure by preparing a zero momentum state and measuring the probability amplitude for different values of Raman detuning $\Delta_0$. 
-
-%In order to maximize our signal to noise ratio (SNR) and minimize the required number of data points we use some fancy algorithm that I'm still not sure which one will work best. We also choose the spacing and the total number of pulses for each spectra so that the bandwith and resolution of the Fourier transform allow us to resolve the frequencies of interest. 
 
 \subsection{Spectroscopy of a driven system}
 

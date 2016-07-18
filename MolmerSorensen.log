@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2016 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -134,6 +134,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 
 LaTeX Warning: Label `fig:Figure3' multiply defined.
 
+
+LaTeX Warning: Label `fig:Figure3' multiply defined.
+
 )
 \openout1 = `MolmerSorensen.aux'.
 
@@ -219,12 +222,12 @@ e
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -233,72 +236,72 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: figures/fig1_1v2.pdf Graphic file (type pdf)
 
 <use figures/fig1_1v2.pdf>
-Package pdftex.def Info: figures/fig1_1v2.pdf used on input line 33.
+Package pdftex.def Info: figures/fig1_1v2.pdf used on input line 26.
 (pdftex.def)             Requested size: 325.2142pt x 281.8523pt.
  [2] [3 <./figures/fig1_1v2.pdf>] [4]
 <figures/fig3v1.pdf, id=102, 325.215pt x 144.54pt>
 File: figures/fig3v1.pdf Graphic file (type pdf)
  <use figures/fig3v1.pdf>
-Package pdftex.def Info: figures/fig3v1.pdf used on input line 86.
+Package pdftex.def Info: figures/fig3v1.pdf used on input line 74.
 (pdftex.def)             Requested size: 325.2142pt x 144.53963pt.
 
-[5 <./figures/fig3v1.pdf>]) (./Methods.tex [6]) (./Results.tex [7]
+[5 <./figures/fig3v1.pdf>]) (./Methods.tex [6] [7]) (./Results.tex
 <figures/tdse.pdf, id=182, 252.945pt x 234.8775pt>
 File: figures/tdse.pdf Graphic file (type pdf)
  <use figures/tdse.pdf>
-Package pdftex.def Info: figures/tdse.pdf used on input line 8.
+Package pdftex.def Info: figures/tdse.pdf used on input line 10.
 (pdftex.def)             Requested size: 252.94438pt x 234.87692pt.
 
-[8 <./figures/tdse.pdf>] <figures/meff.pdf, id=232, 325.215pt x 162.6075pt>
+[8 <./figures/tdse.pdf>] <figures/bands.pdf, id=231, 325.215pt x 325.215pt>
+File: figures/bands.pdf Graphic file (type pdf)
+
+<use figures/bands.pdf>
+Package pdftex.def Info: figures/bands.pdf used on input line 30.
+(pdftex.def)             Requested size: 325.2142pt x 325.2142pt.
+ <figures/meff.pdf, id=232, 325.215pt x 162.6075pt>
 File: figures/meff.pdf Graphic file (type pdf)
 
 <use figures/meff.pdf>
-Package pdftex.def Info: figures/meff.pdf used on input line 33.
+Package pdftex.def Info: figures/meff.pdf used on input line 54.
 (pdftex.def)             Requested size: 325.2142pt x 162.6071pt.
-) (./Discussion.tex [9 <./figures/meff.pdf>])
-(./SuplementaryInfo.tex
-Overfull \hbox (49.65372pt too wide) in paragraph at lines 11--11
-[] 
- []
-
-[10] [11]) [12] (./MolmerSorensen.aux)
+ [9 <./figures/bands.pdf>]) (./Discussion.tex) [10 <./figures/meff.pdf>] (./Not
+es.tex) [11] (./MolmerSorensen.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2861 strings out of 493089
- 34291 string characters out of 6134842
- 111749 words of memory out of 5000000
- 6284 multiletter control sequences out of 15000+600000
+ 2864 strings out of 493089
+ 34333 string characters out of 6134842
+ 104731 words of memory out of 5000000
+ 6286 multiletter control sequences out of 15000+600000
  14327 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,26p,1509b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,26p,1509b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MolmerSorensen.pdf (12 pages, 2007401 bytes).
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MolmerSorensen.pdf (11 pages, 2236045 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 413 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
