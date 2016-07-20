@@ -1,15 +1,68 @@
-\begin{thebibliography}{0}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
+  \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{lindner_floquet_2011}
+Lindner N~H, Refael G and Galitski V 2011 {\em Nature Physics\/} {\bf 7}
+  490--495 ISSN 1745-2473
+  \urlprefix\url{http://www.nature.com.proxy-um.researchport.umd.edu/nphys/journal/v7/n6/full/nphys1926.html}
+
+\bibitem{radic_strong_2015}
+Radi{\'c} J, Natu S~S and Galitski V 2015 {\em Physical Review A\/} {\bf 91}
+  063634 \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.91.063634}
+
+\bibitem{yoshimura_diabatic-ramping_2014}
+Yoshimura B, Campbell W~C and Freericks J~K 2014 {\em Physical Review A\/} {\bf
+  90} 062334 \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.90.062334}
+
+\bibitem{wang_atom-interferometric_2015}
+Wang L, Zhang H, Zhang L, Raithel G, Zhao J and Jia S 2015 {\em Physical Review
+  A\/} {\bf 92} 033619
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.033619}
+
+\bibitem{cheuk_spin-injection_2012}
+Cheuk L~W, Sommer A~T, Hadzibabic Z, Yefsah T, Bakr W~S and Zwierlein M~W 2012
+  {\em Physical Review Letters\/} {\bf 109} 095302
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.109.095302}
+
+\bibitem{dalibard_textitcolloquium_2011}
+Dalibard J, Gerbier F, Juzeli{\=u}nas G and {\"O}hberg P 2011 {\em Reviews of
+  Modern Physics\/} {\bf 83} 1523--1543
+  \urlprefix\url{http://link.aps.org/doi/10.1103/RevModPhys.83.1523}
+
+\bibitem{jimenez-garcia_tunable_2015}
+Jim{\'e}nez-Garc{\'\i}a K, LeBlanc L, Williams R, Beeler M, Qu C, Gong M, Zhang
+  C and Spielman I 2015 {\em Physical Review Letters\/} {\bf 114} 125301
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.114.125301}
+
+\bibitem{lan_raman-dressed_2014}
+Lan Z and {\"O}hberg P 2014 {\em Physical Review A\/} {\bf 89} 023630
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.89.023630}
+
+\bibitem{campbell_itinerant_2015}
+Campbell D~L, Price R~M, Putra A, Vald{\'e}s-Curiel A, Trypogeorgos D and
+  Spielman I~B 2015 {\em arXiv:1501.05984 [cond-mat, physics:physics]\/} ArXiv:
+  1501.05984 \urlprefix\url{http://arxiv.org/abs/1501.05984}
+
+\bibitem{eckardt_superfluid-insulator_2005}
+Eckardt A, Weiss C and Holthaus M 2005 {\em Physical Review Letters\/} {\bf 95}
+  260404 \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.95.260404}
+
+\bibitem{goldman_periodically_2014}
+Goldman N and Dalibard J 2014 {\em Physical Review X\/} {\bf 4} 031027
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevX.4.031027}
+
+\bibitem{l._j._leblanc_direct_2013}
+L~J~LeBlanc M~C~B 2013 {\em New Journal of Physics\/} {\bf 15} ISSN 1367-2630
+
+\bibitem{lin_rapid_2009}
+Lin Y~J, Perry A~R, Compton R~L, Spielman I~B and Porto J~V 2009 {\em Physical
+  Review A\/} {\bf 79} 063631
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.79.063631}
 
 \end{thebibliography}

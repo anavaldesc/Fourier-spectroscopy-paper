@@ -1,9 +1,6 @@
 \section{Results}
 
-We studied the time evolution for three different schemes of SOC. 
-We can fit our experimentally calculated probability amplitudes to the Hamiltonian evolution. This can serve two purposes
-
-We calibrated the Raman coupling terms $\Omega$ and $\Omega_0$ and the detuning from Raman resonance $\Delta$ by fitting the three-level Rabi oscillations of the $\ket{m_F=0}$ and $\ket{m_f=\pm 1}$ states to the time evolution given by the Hamiltonian in Eq. \ref{Eq:SOCone}. Figure \ref{fig:Figure3} shows representative traces for the time evolution of our system for the three cases outlined above. These calibrations along with the information gained from the images of atoms out-coupled  with microwaves guaranteed that we were indeed at the correct detuning from Raman resonance and that the Raman coupling strength remained nominally constant throughout our measurements. 
+We mapped the band structure of our spin-orbit coupled atoms for three different types of coupling. A fit our experimentally calculated probability amplitudes to the Hamiltonian evolution shows that our system is well described by the Hamiltonian \ref{Eq:SOCone} with either $\Omega$ time dependent or independent. The fit can also be used as an additional calibration method to extract the Raman coupling terms $\Omega$ and $\Omega_0$ and the detuning from Raman resonance $\Delta$. Figure \ref{fig:Figure3} shows representative traces for the time evolution of our system for the three cases outlined above. These calibrations along with the information gained from the images of atoms out-coupled  with microwaves guaranteed that we were indeed at the correct detuning from Raman resonance and that the Raman coupling strength remained nominally constant throughout our measurements. 
 
 \begin{figure*}
 	\begin{center}
@@ -21,48 +18,60 @@ We calibrated the Raman coupling terms $\Omega$ and $\Omega_0$ and the detuning 
 \end{figure*}
 
 
+The time evolution shows higher frequency components for cases (ii) and (iii), as expected from the Floquet quasi-energy spectrum, since the Raman coupling strength $\Omega, \Omega_R$ is comparable to the separation between the Floquet manifolds $\delta\omega$. 
 
-The time evolution shows higher frequency components for cases (ii) and (iii), as expected from the Floquet quasi-energy spectrum, since the Raman coupling strength $\Omega, \Omega_R$ is comparable to the separation between the Floquet manifolds $\epsilon$. 
-
-
+We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time, as required by regular FFT algorithms. Our experimental sequences have in principle evenly spaced pulsing times,  but in practice we need to take into account data points that are sometimes missing for reasons beyond our control. Figure \ref{fig:Figure4} shows the power spectral density (PSD) of the time evolution of each $m_F$ state. Each vertical cut is normalized to the highest peak of the three spin states.
+	
 \begin{figure*}
 	\begin{center}
 		\includegraphics{figures/bands.pdf}
 		\caption 
 		{
-			Time evolution of the BEC for Raman pulsing times between 5 and 10 $\mu s$, for different spin orbit coupling regimes:
+			Power spectral density of the experimentally measured probability amplitudes for for different spin orbit coupling regimes:
 			{\bf (i)} $\Omega_0=9.9 E_L$, $\Omega=04$,  $\Delta=5.8 E_L$, 
 			{\bf (ii)} $\Omega_0=0$, $\Omega=8.6 E_L$,  $\Delta=-0.7 E_L$, and
 			{\bf (iii)} $\Omega_0=1.5 E_L$, $\Omega=8.4 E_L$,  $\Delta=-4.7 E_L$
-			
-		}
-		\label{fig:Figure3}
-	\end{center}
-\end{figure*}
-
-To calculate the effective mass we fitted sinusoids to the sloshing motion of our atoms in the dipole trap and extracted the frequency of oscillation. Our Raman beams are co-propagating with the optical dipole trap beams, therefore the direction of the measured dipole trap frequencies is at a $45^{\circ}$ angle with respect to the direction of $k_R$. The kinetic and harmonic terms in the Hamiltonian are
-
-\begin{equation}
-\hat{H}_{\perp}=\frac{1}{2m^{\star}}k_x^2 + \frac{1}{2m}k_y^2+\frac{m}{2}[\omega_{x'}^2x'^2m+\omega_y'^2y'^2]
-\end{equation}
-%
-with $\mathbf{e}_{x'}=\frac{\mathbf{e}_{x}+\mathbf{e}_{y}}{\sqrt{2}}$ and  $\mathbf{e}_{y'}=\frac{\mathbf{e}_{x}-\mathbf{e}_{y}}{\sqrt{2}}$. For $\omega_{x'}=\omega_{y'}$ a simple rotation yields a trapping frequency along the Raman direction $\omega_x=\sqrt{\omega_x^2+\omega_y^2}$.   
-Figure \ref{fig:Figure4} shows the dipole oscillations of our BECs along the $\mathbf{e}_{x'}$ and $\mathbf{e}_{x'}$ directions for the three different coupling regimes we are studying, as well as the bare state motion. 
-
-\begin{figure*}
-	\begin{center}
-		\includegraphics{figures/meff.pdf}
-		\caption
-		{
-			{\bf a)} Top: Computed cross-sectional cuts of the total potential $V(y)$ (black), effective magnetic field ${\mathbfcal B}$ (blue) and atomic density $n(y)$ (yellow). Columns correspond to Raman coupling strengths $\hbar = 0.5 , 3.5, 5.5 \:E_L$ respectively, all with the detuning gradient . Bottom: GPE-computed 2D density distributions $n(x,y)$ using the same parameters.			
-			{\bf b)} Second-moment of the momentum distribution as a function of and  in our system. Regions with large moments represent large potential well separations that have a synthetic magnetic field localized between the BECs.
 			
 		}
 		\label{fig:Figure4}
 	\end{center}
 \end{figure*}
 
+For cases (ii) and (iii) we notice peaks at constant frequencies of $\delta\omega$ and $2\delta\omega$, independently of the Raman detuning, and a structure that is symmetric about the frequencies $2\pi f=\delta\omega/2$ and $2\pi f=\delta\omega$  which can be interpreted as the atoms coupling to the neighboring Floquet manifolds.  
 
-We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time as required by regular FFT algorithms. In order to account for missing data points. Figure $nn+2$ shows the power spectral density (PSD) of the time evolution of each $m_f$ state. Each vertical cut is normalized to the highest peak of the three spin states. We then rescale the units $\hbar\Delta\rightarrow	 \hbar^2k_x/8m$, extract the highest peaks in the PSD and offset their frequency by $\hbar^2k_x^2/2m^{\star}$, finally obtaining the characteristic spin- and momentum- dependent dispersion of a spin orbit coupled system. For the case driven spin-orbit coupling (cases (ii) and (iii)), since the strength of the drive is comparable to the quadratic Zeeman shift,we observe higher frequency components in the dynamics which are in good agreement with Floquet theory.
+Our system also has dark states at $\Delta_0=0$ which can be noted by the missing peaks in the PSD. Since there are eigenstates of the Raman dressed Hamiltonian that never get populated, the time evolution of the system does not have the frequency components related to the missing eigenstates. The presence of the dark states in the system is in good agreement with theory. 
 
-Our system has dark states at $\Delta=0$ which can be noted by the missing peaks in the PSD. Since there are eigenstates of the Raman dressed Hamiltonian that never get populated, the time evolution of the system does not have the frequency components related to the missing eigenstates. The presence of the dark states in the system is in good agreement with theory. 
+To calculate the effective mass we fitted sinusoids to the sloshing motion of our atoms in the dipole trap and extracted the frequency of oscillation. Our Raman beams are co-propagating with the optical dipole trap beams, therefore the direction of the measured dipole trap frequencies is at a $45^{\circ}$ angle with respect to the direction of $k_L$. The kinetic and harmonic terms in the Hamiltonian are
+
+\begin{equation}
+\hat{H}_{\perp}=\frac{1}{2m^{\star}}k_x^2 + \frac{1}{2m}k_y^2+\frac{m}{2}[\omega_{x'}^2x'^2m+\omega_y'^2y'^2]
+\end{equation}
+%
+with $\mathbf{e}_{x'}=\frac{\mathbf{e}_{x}+\mathbf{e}_{y}}{\sqrt{2}}$ and  $\mathbf{e}_{y'}=\frac{\mathbf{e}_{x}-\mathbf{e}_{y}}{\sqrt{2}}$. For $\omega_{x'}=\omega_{y'}$ a simple rotation yields a trapping frequency along the Raman direction $\omega_x=\sqrt{\omega_x^2+\omega_y^2}$.   
+Figure \ref{fig:Figure5} shows the dipole oscillations of our BECs along the $\mathbf{e}_{x'}$ and $\mathbf{e}_{x'}$ directions for the three different coupling regimes we are studying, as well as the bare state motion. 
+
+\begin{figure*}
+	\begin{center}
+		\includegraphics{figures/meff.pdf}
+		\caption
+		{  Oscillation of the BEC in the dipole trap along the directions $\mathbf{e}_{x'}$ and  $\mathbf{e}_{y'}$ defiend by the propagation of the dipole tap beams. The traces have been shifted so that it is easier to appreciate the change in the motion for each coupling regime.	
+		}
+		\label{fig:Figure5}
+	\end{center}
+\end{figure*}
+
+
+After rescaling the horizontal axis from recoil energy to recoil momentum and subtracting the effective mass, we can finally obtain the characteristic dispersion of a spin orbit coupled system as seen in Figure 6. We have additionally overlapped the eigen energies, which are in good agreement with our spectroscopy measurements. 
+
+
+\begin{figure*}
+	\begin{center}
+		\includegraphics{figures/bands2.pdf}
+		\caption 
+		{
+			This figure needs some love but this is more or less the idea. Only the first panel has the effective mass substracted, other 2 are energy differences. I was thinking of maybe making the theory lines thicker to include uncertainties. 
+			
+		}
+		\label{fig:Figure5}
+	\end{center}
+\end{figure*}
