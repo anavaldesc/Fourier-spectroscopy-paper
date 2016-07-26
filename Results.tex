@@ -1,6 +1,6 @@
 \section{Results}
 
-We mapped the band structure of our spin-orbit coupled atoms for three different types of coupling. A fit our experimentally calculated probability amplitudes to the Hamiltonian evolution shows that our system is well described by the Hamiltonian \ref{Eq:SOCone} with either $\Omega$ time dependent or independent. The fit can also be used as an additional calibration method to extract the Raman coupling terms $\Omega$ and $\Omega_0$ and the detuning from Raman resonance $\Delta$. Figure \ref{fig:Figure3} shows representative traces for the time evolution of our system for the three cases outlined above. These calibrations along with the information gained from the images of atoms out-coupled  with microwaves guaranteed that we were indeed at the correct detuning from Raman resonance and that the Raman coupling strength remained nominally constant throughout our measurements. 
+We mapped the three band structure of our spin-orbit coupled atoms. We fit the data to the Hamiltonian in Eq. \ref{Eq:SOCone} with $\Delta_0$ and $\Omega_R$ as the only free parameters. The fitted values agree well with microwave and Raman power calibrations. Figure \ref{fig:Figure3} shows representative traces for the time evolution of our system for the three cases outlined above. The Raman coupling strength remained nominally constant throughout our measurements. 
 
 \begin{figure*}
 	\begin{center}
@@ -17,10 +17,9 @@ We mapped the band structure of our spin-orbit coupled atoms for three different
 	\end{center}
 \end{figure*}
 
+Since the Raman coupling strength $\Omega, \Omega_R$ is comparable to the separation between the Floquet manifolds $\delta\omega$, the time evolution shows higher frequency components for the driven SOC measurements (cases (ii) and (iii)), that correspond to the Floquet quasi-energy spectrum,  
 
-The time evolution shows higher frequency components for cases (ii) and (iii), as expected from the Floquet quasi-energy spectrum, since the Raman coupling strength $\Omega, \Omega_R$ is comparable to the separation between the Floquet manifolds $\delta\omega$. 
-
-We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to get the power spectral density for data points that are not necessarily evenly spaced in time, as required by regular FFT algorithms. Our experimental sequences have in principle evenly spaced pulsing times,  but in practice we need to take into account data points that are sometimes missing for reasons beyond our control. Figure \ref{fig:Figure4} shows the power spectral density (PSD) of the time evolution of each $m_F$ state. Each vertical cut is normalized to the highest peak of the three spin states.
+We use a non-uniform fast Fourier transform algorithm (NUFFT) to obtain the power spectral density since our data points are not evenly spaced in time due to experimental uncertainties. Figure \ref{fig:Figure4} shows the power spectral density (PSD) of the time evolution of each $m_F$ state. Each vertical cut is normalized to the highest peak of the three spin states.
 	
 \begin{figure*}
 	\begin{center}
@@ -37,18 +36,18 @@ We use a not-uniform fast Fourier transform algorithm (NUFFT) which allows us to
 	\end{center}
 \end{figure*}
 
-For cases (ii) and (iii) we notice peaks at constant frequencies of $\delta\omega$ and $2\delta\omega$, independently of the Raman detuning, and a structure that is symmetric about the frequencies $2\pi f=\delta\omega/2$ and $2\pi f=\delta\omega$  which can be interpreted as the atoms coupling to the neighboring Floquet manifolds.  
+For the second and third rows we notice peaks at constant frequencies of $\delta\omega$ and $2\delta\omega$, independently of the Raman detuning, and a structure that is symmetric about the frequencies $2\pi f=\delta\omega/2$ and $2\pi f=\delta\omega$  which can be interpreted as the atoms coupling to the neighboring Floquet manifolds.  
 
-Our system also has dark states at $\Delta_0=0$ which can be noted by the missing peaks in the PSD. Since there are eigenstates of the Raman dressed Hamiltonian that never get populated, the time evolution of the system does not have the frequency components related to the missing eigenstates. The presence of the dark states in the system is in good agreement with theory. 
+The missing peaks in the PSD are due to dark states at $\Delta_0=0$. Since there are eigenstates of the Raman dressed Hamiltonian that never get populated, the time evolution of the system does not have the frequency components related to the missing eigenstates. 
 
-To calculate the effective mass we fitted sinusoids to the sloshing motion of our atoms in the dipole trap and extracted the frequency of oscillation. Our Raman beams are co-propagating with the optical dipole trap beams, therefore the direction of the measured dipole trap frequencies is at a $45^{\circ}$ angle with respect to the direction of $k_L$. The kinetic and harmonic terms in the Hamiltonian are
+The effective mass was extracted by comparing the sloshing frequencies of the atoms in the dipole trap to the Raman dressed ones.  fitted sinusoids to the sloshing motion of our atoms in the dipole trap and extracted the frequency of oscillation. % Our Raman beams are co-propagating with the optical dipole trap beams, therefore the direction of the measured dipole trap frequencies is at a $45^{\circ}$ angle with respect to the direction of $k_L$. The kinetic and harmonic terms in the Hamiltonian are
 
 \begin{equation}
 \hat{H}_{\perp}=\frac{1}{2m^{\star}}k_x^2 + \frac{1}{2m}k_y^2+\frac{m}{2}[\omega_{x'}^2x'^2m+\omega_y'^2y'^2]
 \end{equation}
 %
 with $\mathbf{e}_{x'}=\frac{\mathbf{e}_{x}+\mathbf{e}_{y}}{\sqrt{2}}$ and  $\mathbf{e}_{y'}=\frac{\mathbf{e}_{x}-\mathbf{e}_{y}}{\sqrt{2}}$. For $\omega_{x'}=\omega_{y'}$ a simple rotation yields a trapping frequency along the Raman direction $\omega_x=\sqrt{\omega_x^2+\omega_y^2}$.   
-Figure \ref{fig:Figure5} shows the dipole oscillations of our BECs along the $\mathbf{e}_{x'}$ and $\mathbf{e}_{x'}$ directions for the three different coupling regimes we are studying, as well as the bare state motion. 
+Figure \ref{fig:Figure5} shows the dipole oscillations along the $\mathbf{e}_{x'}$ and $\mathbf{e}_{x'}$ directions for the three different coupling regimes we are studying, as well as the bare state motion. 
 
 \begin{figure*}
 	\begin{center}
@@ -60,8 +59,7 @@ Figure \ref{fig:Figure5} shows the dipole oscillations of our BECs along the $\m
 	\end{center}
 \end{figure*}
 
-
-After rescaling the horizontal axis from recoil energy to recoil momentum and subtracting the effective mass, we can finally obtain the characteristic dispersion of a spin orbit coupled system as seen in Figure 6. We have additionally overlapped the eigen energies, which are in good agreement with our spectroscopy measurements. 
+We can obtain the characteristic dispersion of a SOC system after subtracting the effective mass, as can be seen in Figure \ref{fig:Figure6}. The measured bands are in good agreement with the eigenvalues calculated from Floquet theory. 
 
 
 \begin{figure*}
@@ -72,6 +70,6 @@ After rescaling the horizontal axis from recoil energy to recoil momentum and su
 			This figure needs some love but this is more or less the idea. Only the first panel has the effective mass substracted, other 2 are energy differences. I was thinking of maybe making the theory lines thicker to include uncertainties. 
 			
 		}
-		\label{fig:Figure5}
+		\label{fig:Figure6}
 	\end{center}
 \end{figure*}

@@ -3,47 +3,45 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MolmerSorensen.aux
 The style file: iopart-num.bst
 Database file #1: MolmerSorensen.bib
-Warning--I didn't find a database entry for "_rashba_????"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 13 entries,
+You've used 14 entries,
             3033 wiz_defined-function locations,
-            703 strings with 7590 characters,
-and the built_in function-call counts, 13464 in all, are:
-= -- 1551
-> -- 195
+            705 strings with 7718 characters,
+and the built_in function-call counts, 13604 in all, are:
+= -- 1555
+> -- 196
 < -- 0
-+ -- 103
++ -- 104
 - -- 78
-* -- 939
-:= -- 1551
+* -- 943
+:= -- 1558
 add.period$ -- 0
-call.type$ -- 13
-change.case$ -- 1
+call.type$ -- 14
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 1183
-empty$ -- 1254
+cite$ -- 14
+duplicate$ -- 1203
+empty$ -- 1279
 format.name$ -- 64
-if$ -- 3059
+if$ -- 3092
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 154
-newline$ -- 49
+int.to.str$ -- 14
+missing$ -- 157
+newline$ -- 52
 num.names$ -- 13
-pop$ -- 287
+pop$ -- 299
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 126
+skip$ -- 137
 stack$ -- 0
 substring$ -- 2161
-swap$ -- 332
+swap$ -- 337
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 182
-width$ -- 15
-write$ -- 127
-(There was 1 warning)
+width$ -- 16
+write$ -- 133
